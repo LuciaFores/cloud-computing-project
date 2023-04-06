@@ -64,7 +64,7 @@ model.compile(
 ### TRAIN THE MODEL ###
 ### notice that a log containing the eta and the metrics measured will be produced in real time ###
 hist = model.fit(x_train, y_train,
-                 epochs=10,
+                 epochs=5,
                  batch_size=64,
                  verbose=1,
                  validation_data=(x_val, y_val))
