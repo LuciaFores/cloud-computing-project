@@ -125,5 +125,5 @@ history = model_new.fit(x_train, y_train,
 ### at the moment the file will be saved in the same directory of the script ###
 ### in the future it will be saved first in a volume (when dockerized) ###
 ### and then in a aws machine when put on cloud ###
-filename = '../finalized_model.sav'
+filename = 'finalized_model.sav'
 pickle.dump(model_new, open(filename, 'wb'))
