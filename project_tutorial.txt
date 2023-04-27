@@ -1,0 +1,134 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; CLOUD COMPUTING PROJECT PASSAGES
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; INTRODUCTION
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+This file contains a first draft of the project description and of the passages needed to make the project for the course Cloud Computing work on AWS.
+Please notice that this version of the passages is tested over a restricted version of the environment (Sandbox Environment of the Cloud Foundations Course) that will later be used for the final version of the project (Learner Lab with credits).
+The aim of this file is to describe all the "mechanical" steps that we will later use (independently from the specific decisions we will make about the types of services that we will use) to do the configurations of our system among the AWS services needed.
+This passages are tested over a Linux machine so in some points the instruction may change (w.r.t. the OS used; it should be the same for macOS users but different for Windows users)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; PROJECT DESCRIPTION
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+The goal of the project is to design and implement a web application and later on test its ability to scale when stressed out by users.
+The web application consists in a tool that allow users to upload an image: each image is then processed by a machine learning model.
+The model, trained over 100.000 examples of world entites (like airplanes, dogs, cats, trucks...), will identify the correct category of in which the image uploaded by the user belongs.
+The web application and the Python script that contains the implementation of the model are two separate parts that interact over a common storage in which the model (after being trained) is stored.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; DESIGN
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1. Model Script
+The model is an image recognition model trained of the CIFAR-100 and CIFAR-10 datasets.
+Specifically the model is at first trained over the CIFAR-100 dataset, a dataset containing 60.000 32x32 images (divded into 100 classes of 600 images each, and specifically of 500 training images and 100 test images each) representing each possible category in which the world entites can be grouped (there are actually 20 superclasses like aquatic mammals, fish, flowers, food containers,... and, for each superclass there are then some classes in which the images can be classified).
+The obtained model is then used as the base of the training for our final model that is then trained with the CIFAR-10 dataset which is once again a dataset containing 60.000 32x32 images that are this time divided into 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck) of 6.000 images each (5.000 for the training and 1.000 for testing).
+The goal for our model is to creat a multiclass classificator used to classify each image provided by the users into one of the 10 classes provided by the CIFAR-10 dataset
+
+2. Web Application
+The web application acts as the front-end of our system: it can recieve any picture (of any dimensions or colors) as input and then it will display the prediction produced by our pre-trained model
+
+3. Storage
+The strage is the poin of contact of the parts of our system: it's a place in which the trained model is saved by the model training at the end of its task and in which the web application can retrieve the model in order to pass the input and wait for the prediction
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; IMPLEMENTATION
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1. Model Training Task
+The implementation of the model has been made thanks to the Tensorflow and Keras library: we decided to use a Sequential Neural Network composed by different layers for recogninition and normalization; later on the first trained model has been used as first layer of our final model
+
+2. Web Application
+The framework used for the web application is Streamlit. Streamlit is a Python library used specifically to create web interfaces for machine learning model.
+When first launched the application waits for the user to upload an image and then after submitting the input the application do some image pre-processing in order to make the image uploaded works with the model and then waits for the prediction made by the previously downloaded pre-trained model
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; STORAGE DEPLOYMENT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1. AWS S3 configuration
+In order to use a bucket in which we will upload the trained model file we must first create it.
+
+The parameters to be configured are the following:
+- Name: model-bucket
+- Region: us-east-1 (this should be good also into the Learner Lab)
+- Access Control Lists: disabled
+- Access Settings: enabled through the policy presented later
+- Bucket Versioning: enabled to keep multiple version of the same file
+- Tags and Encryption: disabled
+
+The bucket must be accessible by the model script in writing mode and by the application in reading mode, so we define the following policy:
+                                [POLICY]
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicRead",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectVersion"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<BUCKET-NAME>/*"
+            ]
+        }
+    ]
+}
+In this way the public access in read mode is permitted to anyone and, since the bucket will contain the trained model (which is not a secret file) there is no need to keep it hidden.
+
+In order to let the bucket be accessible in writing mode by the script we will give the script the access and secret key of an IAM role that has the authorization to write to the S3 Bucket and so we should not enable a specific policy for that
+
+2. FOLLOW THIS STEPS TO CREATE THE BUCKET
+- Bucket Name: cloud-computing-model-bucket
+- AWS Region: us-east-1
+- Copy the settings from an existing bucket: optional (do not do anything and leave it as it is)
+- Object Ownerships: check "ACL disabled"
+- Block Public Access Settings for this Bucket:
+    - Uncheck "Block ALL public access"
+    - Check "Block public access to granted buckets and objects using new access control lists (ACLs)"
+    - Check "Block public access to granted buckets and objects via any access control list (ACL)"
+    - Check "I acknowledge that the current settings may make this bucket and the objects in it public."
+- Multiple Version for the Bucket: check "Enable"
+- Leave everything else as it is
+- Create the Bucket
+- From the dashboard:
+    - Click on "Bucket"
+    - Select the newly created bucket
+    - Go on "Authorization"
+    - Scroll down up until you find "Bucket Policy"
+    - Click on "Modify"
+    - Add the policy [POLICY] presented before by substituting the <BUCKET-NAME> with the name you gave to the bucket (you can also directly copy the bucket ARN presented by AWS)
+    - Click on "Save Changes"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; WEB APPLICATION DEPLOYMENT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+As the first thing to do is to publish the Docker image (the dockerfile contained in the folder AWS) into the Amazon Elastic Container Registry
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; TESTS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1. Test for communication between model saved in the bucket and web application
+Notice that the test is made by only connecting the web application and the bucket and that in the final version of the project this will not be exactly the same
+- Save the model in the bucket:
+    - From the dashboard go to Bucket
+    - Select the bucket you created previously
+    - Go to "Object"
+    - Click on "Upload"
+    - Click on "Add files"
+    - Upload the "finalized_model.sav" file
+    - Click on "Upload"
+    - Wait for the file to be uploaded
+    - Notice that the destination of the file should be "s3://<BUCKET-NAME>
+    - Click on "Close"
+- Upload the web application on AWS
+    -
