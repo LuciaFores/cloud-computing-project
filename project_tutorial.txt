@@ -109,6 +109,59 @@ In order to let the bucket be accessible in writing mode by the script we will g
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; MODEL DEPLOYMENT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+0. KEYS TO ACCESS TO EVERYTHING CAN BE FOUND BY CLICKING "AWS Details" IN THE SANDBOX ACCESS PANEL UNDER THE AWS CLI SHOW BUTTON
+1. Save the Secret Credentials to .aws/credentials file on your local machine
+2. Install AWS CLI (skip if present on local machine:
+    - Go to "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html" and follow the instruction for your OS
+3. Create a repository in ECR:
+    - Go to ECR from the AWS Service Panel
+    - Choose "Create Repository"
+    - Select "Private" as "Visibility Option" (boh)
+    - Choose a name for the repository (e.g. cloud_model)
+    - Leave everything else as it is
+    - Click on "Create Repository"
+4. Push the image to the repository:
+    - Go to "Repositories"
+    - Select the wanted repository
+    - Click on "Show Push Commands"
+    - Copy the commands on your local shell where the AWS CLI is running and it's done
+5. Create the EC2 instance:
+    - From the AWS Service Panel go to EC2
+    - Select "Instances"
+    - From the dropdown menu "Start Instances" select "Start Instance"
+    - Choose an instance name (e.g. Cloud Model)
+    - Select "Amazon Linux" as AMI
+    - Select "t2.large" as instance (not sure, maybe we can try something different when accessing to the true sandbox)
+    - Choose the key-value pair "vockey" (default not sure if we can create another one but I don't thik so)
+    - As for the "Network Settings" choose the "create a new security group" and leave everything as it is
+    - Leave everything else as it is
+    - Open "Advanced Details"
+    - As for "Instance IAM Profile" choose "LabInstanceProfile"
+    - Go to "user data" and add the following script [SCRIPT] to configure Docker on the instance:
+                            [SCRIPT]
+#!/bin/bash
+sudo yum update -y
+sudo yum install amazon-linux-extras
+sudo amazon-linux-extras install docker -y
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+sudo systemctl enable docker
+sudo gpasswd -a ec2-user docker
+sudo grpck
+sudo grpconv
+newgrp docker
+groups
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <AWS ACCOUT ID>.dkr.ecr.us-east-1.amazonaws.com
+docker pull <AWS ACCOUT ID>.dkr.ecr.us-east-1.amazonaws.com/cloud_model:latest
+docker run --rm <AWS ACCOUT ID>.dkr.ecr.us-east-1.amazonaws.com/cloud_model
+                            [END SCRIPT]
+    (Lucia : 131920089270)
+    - Click on "Start Instance"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;; WEB APPLICATION DEPLOYMENT
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 As the first thing to do is to publish the Docker image (the dockerfile contained in the folder AWS) into the Amazon Elastic Container Registry
