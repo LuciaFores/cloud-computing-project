@@ -109,25 +109,30 @@ In order to let the bucket be accessible in writing mode by the script we will g
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;; MODEL DEPLOYMENT
+;;;;;; PREPARE THINGS TO WORK
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 0. KEYS TO ACCESS TO EVERYTHING CAN BE FOUND BY CLICKING "AWS Details" IN THE SANDBOX ACCESS PANEL UNDER THE AWS CLI SHOW BUTTON
-1. Save the Secret Credentials to .aws/credentials file on your local machine
+1. Save the Secret Credentials to .aws/credentials file on your local machine (Remember to repeat this step everytime that the sandbox is started because the token expire)
 2. Install AWS CLI (skip if present on local machine:
     - Go to "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html" and follow the instruction for your OS
-3. Create a repository in ECR:
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; MODEL DEPLOYMENT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1. Create a repository in ECR:
     - Go to ECR from the AWS Service Panel
     - Choose "Create Repository"
     - Select "Private" as "Visibility Option" (boh)
     - Choose a name for the repository (e.g. cloud_model)
     - Leave everything else as it is
     - Click on "Create Repository"
-4. Push the image to the repository:
+2. Push the image to the repository:
     - Go to "Repositories"
     - Select the wanted repository
     - Click on "Show Push Commands"
     - Copy the commands on your local shell where the AWS CLI is running and it's done
-5. Create the EC2 instance:
+3. Create the EC2 instance:
     - From the AWS Service Panel go to EC2
     - Select "Instances"
     - From the dropdown menu "Start Instances" select "Start Instance"
@@ -166,24 +171,63 @@ docker run --rm <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;; WEB APPLICATION DEPLOYMENT
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-As the first thing to do is to publish the Docker image (the dockerfile contained in the folder AWS) into the Amazon Elastic Container Registry
+1. Create a repository in ECR:
+    - Go to ECR from the AWS Service Panel
+    - Choose "Create Repository"
+    - Select "Private" as "Visibility Option" (boh)
+    - Choose a name for the repository (e.g. cloud_model)
+    - Leave everything else as it is
+    - Click on "Create Repository"
+2. Push the image to the repository:
+    - Go to "Repositories"
+    - Select the wanted repository
+    - Click on "Show Push Commands"
+    - Copy the commands on your local shell where the AWS CLI is running and it's done
+3. Create the EC2 instance:
+    - From the AWS Service Panel go to EC2
+    - Select "Instances"
+    - From the dropdown menu "Start Instances" select "Start Instance"
+    - Choose an instance name (e.g. Cloud Model)
+    - Select "Amazon Linux" as AMI
+    - Select "t2.micro" as instance (not sure, maybe we can try something different when accessing to the true sandbox)
+    - Choose the key-value pair "vockey" (default not sure if we can create another one but I don't thik so)
+    - As for the "Network Settings" choose the "create a new security group"
+    - Check the "Allow HTTP traffic from internet"
+    - Click on Edit
+    - Add a new security rule
+    - Choose "Custom TCP"
+    - As for the port type "8501"
+    - Choose 0.0.0.0/0 to allow traffic from anywhere
+    - Leave everything else as it is
+    - Open "Advanced Details"
+    - As for "Instance IAM Profile" choose "LabInstanceProfile"
+    - Go to "user data" and add the following script [SCRIPT] to configure Docker on the instance:
+                            [SCRIPT]
+#!/bin/bash
+sudo yum update -y
+sudo yum install amazon-linux-extras
+sudo amazon-linux-extras install docker -y
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+sudo systemctl enable docker
+sudo gpasswd -a ec2-user docker
+sudo grpck
+sudo grpconv
+newgrp docker
+groups
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com
+docker pull <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME>:latest
+docker run -dp 8501:8501 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME>
+                            [END SCRIPT]
+    (AWS_ACCOUT_ID Lucia : 131920089270)
+    (REPOSITORY_NAME Web Application: cloud_webapp)
+    - Click on "Start Instance"
+    - Wait until the Status Check are passed
+    - Now the web application is up and running!
+    - To connect to the web application just copy the "Public IP Address" and then add :8501 to connect to the right port
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;; TESTS
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-1. Test for communication between model saved in the bucket and web application
-Notice that the test is made by only connecting the web application and the bucket and that in the final version of the project this will not be exactly the same
-- Save the model in the bucket:
-    - From the dashboard go to Bucket
-    - Select the bucket you created previously
-    - Go to "Object"
-    - Click on "Upload"
-    - Click on "Add files"
-    - Upload the "finalized_model.sav" file
-    - Click on "Upload"
-    - Wait for the file to be uploaded
-    - Notice that the destination of the file should be "s3://<BUCKET-NAME>
-    - Click on "Close"
-- Upload the web application on AWS
-    -
+
