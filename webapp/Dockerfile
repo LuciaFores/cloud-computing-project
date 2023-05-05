@@ -1,13 +1,25 @@
-FROM python:3.9-slim-buster
+FROM cicirello/pyaction:4.14.0
 
 WORKDIR /app
 
 COPY webapp.py /app/webapp.py
 COPY requirements.txt /app/requirements.txt
-COPY finalized_model.sav /app/finalized_model.sav
 
 RUN pip3 install -r requirements.txt
 
-ENTRYPOINT ["streamlit", "run", "webapp.py"]
-
 EXPOSE 8501
+
+CMD streamlit run webapp.py
+
+ENV LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8
+RUN mkdir -p /root/.streamlit
+RUN bash -c 'echo -e "\
+[general]\n\
+email = \"\"\n\
+" > /root/.streamlit/credentials.toml'
+
+RUN bash -c 'echo -e "\
+[server]\n\
+enableCORS = false\n\
+" > /root/.streamlit/config.toml'

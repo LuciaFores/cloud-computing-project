@@ -7,6 +7,11 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 import pickle
+import boto3
+
+### SET CONNECTION TO S3 BUCKET ###
+s3_client = boto3.client('s3')
+bucketName = "cloud-computing-model-bucket" 
 
 ### DOWNLOAD CIFAR10 DATASET ###
 cifar100 = tf.keras.datasets.cifar100
@@ -122,8 +127,8 @@ history = model_new.fit(x_train, y_train,
                  validation_data=(x_val, y_val))
 
 ### SAVE THE MODEL IN A PICKLE FILE ###
-### at the moment the file will be saved in the same directory of the script ###
-### in the future it will be saved first in a volume (when dockerized) ###
-### and then in a aws machine when put on cloud ###
-filename = 'finalized_model.sav'
-pickle.dump(model_new, open(filename, 'wb'))
+fileName = 'finalized_model.sav'
+pickle.dump(model_new, open(fileName, 'wb'))
+
+### SAVE THE TRAINED MODEL TO S3 BUCKET ###
+s3_client.upload_file(fileName, bucketName, fileName)

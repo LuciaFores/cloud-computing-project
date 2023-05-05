@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.applications.resnet50 import preprocess_input
 import keras.utils as image
+from st_files_connection import FilesConnection
 
 # Title
 st.header("Cloud Computing Machine Learning App")
@@ -34,8 +35,12 @@ if st.button("Submit"):
     img_batch = np.expand_dims(img_array, axis=0)
     # 3. Consistent pixels
     img_preprocessed = preprocess_input(img_batch)
+    # Connect to the S3 Bucket
+    conn = st.experimental_connection('s3', type=FilesConnection)
+    # Retrieve the model
+    pickled_model = conn.read("cloud-computing-model-bucket/finalized_model.sav")
     # Unpickle the model
-    model = pickle.load(open('finalized_model.sav', 'rb'))
+    model = pickle.load(open(pickled_model, 'rb'))
     prediction = labels[model.predict(img_preprocessed).argmax()]
     # Output the prediction
     st.text(f"This image represents a {prediction}")
