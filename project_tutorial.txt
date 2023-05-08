@@ -17,7 +17,7 @@ This passages are tested over a Linux machine so in some points the instruction 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 The goal of the project is to design and implement a web application and later on test its ability to scale when stressed out by users.
 The web application consists in a tool that allow users to upload an image: each image is then processed by a machine learning model.
-The model, trained over 100.000 examples of world entites (like airplanes, dogs, cats, trucks...), will identify the correct category of in which the image uploaded by the user belongs.
+The model, trained over 100.000 examples of world entities (like airplanes, dogs, cats, trucks...), will identify the correct category of in which the image uploaded by the user belongs.
 The web application and the Python script that contains the implementation of the model are two separate parts that interact over a common storage in which the model (after being trained) is stored.
 
 
