@@ -1,0 +1,2 @@
+Instance Type: t3.large
+Running Time: 13:15 - 15:00

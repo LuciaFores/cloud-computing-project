@@ -1,0 +1,2 @@
+Instance Type: t2.large
+Running Time: 08:14 - 10:19
