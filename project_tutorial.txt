@@ -137,7 +137,7 @@ In order to let the bucket be accessible in writing mode by the script we will g
     - Select "Instances"
     - From the dropdown menu "Start Instances" select "Start Instance"
     - Choose an instance name (e.g. Cloud Model)
-    - Select "Amazon Linux" as AMI
+    - Select "Amazon Linux 2" as AMI
     - Select "t2.large" as instance (not sure, maybe we can try something different when accessing to the true sandbox)
     - Choose the key-value pair "vockey" (default not sure if we can create another one but I don't thik so)
     - As for the "Network Settings" choose the "create a new security group" and leave everything as it is
@@ -164,13 +164,12 @@ docker run --rm <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME
                             [END SCRIPT]
     (AWS_ACCOUT_ID Lucia : 131920089270)
     (REPOSITORY_NAME Model : cloud_model)
-    (REPOSITORY_NAME Web Application: cloud_webapp)
     - Click on "Start Instance"
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;; WEB APPLICATION DEPLOYMENT
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; WEB APPLICATION DEPLOYMENT (SINGLE INSTANCE)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 1. Create a repository in ECR:
     - Go to ECR from the AWS Service Panel
     - Choose "Create Repository"
@@ -225,6 +224,74 @@ docker run -dp 8501:8501 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
     - Wait until the Status Check are passed
     - Now the web application is up and running!
     - To connect to the web application just copy the "Public IP Address" and then add :8501 to connect to the right port
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; AUTOSCALING GROUP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1. Create Security Group:
+    - From the EC2 dashboard go to "Security Groups"
+    - Choose a name for the security group (e.g. autoscaling-security-group)
+    - Choose a description for the security group (e.g. autoscaling-security-group)
+    - Add the following Inbound rules:
+        + Type : Custom TCP
+        + Port Range: 8501
+        + Source : Anywhere IPv4
+
+        + Type : Custom TCP
+        + Port Range : 8501
+        + Source : Anywhere IPv6
+
+        + Type : HTTP
+        + Port Range : 80
+        + Source : Anywhere IPv4
+
+        + Type : SSH
+        + Port Range : 22
+        + Sourche : Anywhere IPv4
+    - Add the following Outbound rules:
+        + Type : All traffic
+        + Protocol : All
+        + Port Range : All
+        + Destination : Custom
+    - Click on "Create new security group"
+2. Create the Launch Template:
+    - From the EC2 dashboard go to "Launch Templates"
+    - Click on "Launch Template"
+    - Choose a name for the template (e.g. autoscaling-launch-template)
+    - Choose a description for the template (e.g. autoscaling-launch-template)
+    - Under the "Auto Scaling guidance" click on "Provide guidance to help me set up a template I can use with EC2 Auto Scaling"
+    - Under "Application and OS Images" click on "Quick Start" and choose "Amazon Linux 2"
+    - Under "Instance type" choose "t2.micro"
+    - Choose "vockey" as "Key Pair"
+    - As for the "Security Group" choose the security group created at point 1.
+    - Under "Advanced details" choose the "LabInstanceProfile" as "IAM instance profile"
+    - Enable "Deatiled CloudWatch monitoring"
+    - Copy the script [SCRIPT] of the section WEB APPLICATION DEPLOYMENT in "User data"
+    - Click on "Create launch template"
+3. Create the Autoscaling group
+    - From the EC2 dashboard go to "Auto Scaling Groups"
+    - Click on "Create Auto Scaling group"
+    - Choose a name for the Auto Scaling group (e.g. image-recognition-aws)
+    - For the "Launch template" choose the template created at point 2.
+    - Click "Next"
+    - For the "Network" leave the vpc already selected and select all the 6 "Availability Zones and subnets"
+    - Click on "Next"
+    - As for the "Load balancing" select "Attach to a new load balancer"
+    - As for the "Load balancer scheme" select "internet-facing"
+    - As for the "Listeners and routing" change the Port to 8501 and select "Create a target group" under the "Default routing"
+    - Leave everything else as it is
+    - Click on "Next"
+    - For the "Group size" use the following configuration:
+        + Desired capacity : 1
+        + Minimum capacity : 1
+        + Maximum capacity : 3 (to be checked if it's okay while doing the stress tests)
+    - For the "Scaling policies" select "Target tracking scaling policy" and use "50" as "Target value" (Default, to be checked with the tests)
+    - Leave everything else as it is
+    - Click on "Next"
+    - Clcik on "Next"
+    - Click on "Next"
+    - Create "Auto Scaling group"
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
