@@ -13,7 +13,6 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Copy the necessary files to the working directory
 COPY webapp.py /app/webapp.py
 COPY templates /app/templates/
-COPY finalized_model.sav /app/finalized_model.sav
 
 # Expose the desired port
 

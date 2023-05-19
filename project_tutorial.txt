@@ -174,7 +174,7 @@ docker run --rm <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME
     - Go to ECR from the AWS Service Panel
     - Choose "Create Repository"
     - Select "Private" as "Visibility Option" (boh)
-    - Choose a name for the repository (e.g. cloud_model)
+    - Choose a name for the repository (e.g. cloud_webapp)
     - Leave everything else as it is
     - Click on "Create Repository"
 2. Push the image to the repository:
@@ -186,8 +186,8 @@ docker run --rm <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME
     - From the AWS Service Panel go to EC2
     - Select "Instances"
     - From the dropdown menu "Start Instances" select "Start Instance"
-    - Choose an instance name (e.g. Cloud Model)
-    - Select "Amazon Linux" as AMI
+    - Choose an instance name (e.g. Cloud Web App)
+    - Select "Amazon Linux 2" as AMI
     - Select "t2.micro" as instance (not sure, maybe we can try something different when accessing to the true sandbox)
     - Choose the key-value pair "vockey" (default not sure if we can create another one but I don't thik so)
     - As for the "Network Settings" choose the "create a new security group"
@@ -195,7 +195,7 @@ docker run --rm <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME
     - Click on Edit
     - Add a new security rule
     - Choose "Custom TCP"
-    - As for the port type "8501"
+    - As for the port type "8080"
     - Choose 0.0.0.0/0 to allow traffic from anywhere
     - Leave everything else as it is
     - Open "Advanced Details"
@@ -216,14 +216,14 @@ newgrp docker
 groups
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com
 docker pull <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME>:latest
-docker run -dp 8501:8501 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME>
+docker run -dp 8080:5000 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSITORY_NAME>
                             [END SCRIPT]
     (AWS_ACCOUT_ID Lucia : 131920089270)
     (REPOSITORY_NAME Web Application: cloud_webapp)
     - Click on "Start Instance"
     - Wait until the Status Check are passed
     - Now the web application is up and running!
-    - To connect to the web application just copy the "Public IP Address" and then add :8501 to connect to the right port
+    - To connect to the web application just copy the "Public IP Address" and then add :8080 to connect to the right port
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -235,11 +235,11 @@ docker run -dp 8501:8501 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
     - Choose a description for the security group (e.g. autoscaling-security-group)
     - Add the following Inbound rules:
         + Type : Custom TCP
-        + Port Range: 8501
+        + Port Range: 8080
         + Source : Anywhere IPv4
 
         + Type : Custom TCP
-        + Port Range : 8501
+        + Port Range : 8080
         + Source : Anywhere IPv6
 
         + Type : HTTP
@@ -248,7 +248,7 @@ docker run -dp 8501:8501 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
 
         + Type : SSH
         + Port Range : 22
-        + Sourche : Anywhere IPv4
+        + Source : Anywhere IPv4
     - Add the following Outbound rules:
         + Type : All traffic
         + Protocol : All
@@ -279,7 +279,7 @@ docker run -dp 8501:8501 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
     - Click on "Next"
     - As for the "Load balancing" select "Attach to a new load balancer"
     - As for the "Load balancer scheme" select "internet-facing"
-    - As for the "Listeners and routing" change the Port to 8501 and select "Create a target group" under the "Default routing"
+    - As for the "Listeners and routing" change the Port to 8080 and select "Create a target group" under the "Default routing"
     - Leave everything else as it is
     - Click on "Next"
     - For the "Group size" use the following configuration:

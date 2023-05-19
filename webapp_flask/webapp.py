@@ -4,6 +4,7 @@ import tensorflow as tf
 from tensorflow.keras.applications.resnet50 import preprocess_input #pip3 install tensorflow keras
 import numpy as np
 import pickle
+import boto3
 
 app = Flask(__name__)
 
@@ -20,6 +21,10 @@ def index():
 @app.route('/', methods=['POST'])
 def success():
     if request.method == 'POST': 
+        # Connect to the S3 Bucket
+        s3 = boto3.client('s3')
+        # Retrieve the model
+        s3.download_file('cloud-computing-model-bucket', 'finalized_model.sav', 'finalized_model.sav')
         file = request.files['file']
 
         labels = [
