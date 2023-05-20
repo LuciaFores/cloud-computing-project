@@ -262,7 +262,7 @@ docker run -dp 8080:5000 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
     - Choose a description for the template (e.g. autoscaling-launch-template)
     - Under the "Auto Scaling guidance" click on "Provide guidance to help me set up a template I can use with EC2 Auto Scaling"
     - Under "Application and OS Images" click on "Quick Start" and choose "Amazon Linux 2"
-    - Under "Instance type" choose "t2.micro"
+    - Under "Instance type" choose "t2.large"
     - Choose "vockey" as "Key Pair"
     - As for the "Security Group" choose the security group created at point 1.
     - Under "Advanced details" choose the "LabInstanceProfile" as "IAM instance profile"
@@ -280,13 +280,15 @@ docker run -dp 8080:5000 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
     - As for the "Load balancing" select "Attach to a new load balancer"
     - As for the "Load balancer scheme" select "internet-facing"
     - As for the "Listeners and routing" change the Port to 8080 and select "Create a target group" under the "Default routing"
+    - Check "Turn on Elastic Load Balancing Health Checks"
+    - Under "Additional Settings" click on "Enable Group Metrics Collection withing CloudWatch"
     - Leave everything else as it is
     - Click on "Next"
     - For the "Group size" use the following configuration:
         + Desired capacity : 1
         + Minimum capacity : 1
         + Maximum capacity : 3 (to be checked if it's okay while doing the stress tests)
-    - For the "Scaling policies" select "Target tracking scaling policy" and use "50" as "Target value" (Default, to be checked with the tests)
+    - For the "Scaling policies" select "Target tracking scaling policy" and use "40" as "Target value"
     - Leave everything else as it is
     - Click on "Next"
     - Clcik on "Next"
