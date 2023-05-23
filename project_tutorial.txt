@@ -288,13 +288,41 @@ docker run -dp 8080:5000 <AWS_ACCOUT_ID>.dkr.ecr.us-east-1.amazonaws.com/<REPOSI
         + Desired capacity : 1
         + Minimum capacity : 1
         + Maximum capacity : 3 (to be checked if it's okay while doing the stress tests)
-    - For the "Scaling policies" select "Target tracking scaling policy" and use "40" as "Target value"
-    - Leave everything else as it is
+    - For the "Scaling policies" select "None"
     - Click on "Next"
     - Clcik on "Next"
     - Click on "Next"
     - Create "Auto Scaling group"
-
+4. Create Alarms for Policy:
+    - Go to CloudWatch
+    - Go to Alarms -> All alarms -> Create alarm
+    - Click on "Select metric"
+    - Search for CPU
+    - Click EC2 > By Auto Scaling Group
+    - Select CPUUtilization (CHECK FOR THE CORRECT AUTOSCALING GROUP NAME)
+    - Click on "Select Metric"
+    - From "Statistic" select "Average"
+    - From "Period" select "1 minute"
+    - In the "Conditions" Panel:
+        + Threshold Type : Static
+        + Whenever CPUUtilization is : Greater (Greater/Equal) or Lower (Lower/Equal)
+        + than... : 40 (to be checked if we can do more)
+    - Click "Next"
+    - Remove the "Notification" settings
+    - Leave everything else as it is
+    - Give a name to the alarm
+    - Click "Next"
+    - Click "Create Alarm"
+5. Attach alrams to scaling policy:
+    - Go to Auto Scaling Groups
+    - Click on the wanted Auto Scaling Group
+    - Click on "Automatic Scaling"
+    - Click on "Create dynamic scaling policy"
+    - For "Policy type" select "Simple Scaling"
+    - Set a name for the policy
+    - Select the wanted CloudWatch alarm
+    - Configure the wanted action
+    - For "And then wait" put "30" (to be checked)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;; TESTS

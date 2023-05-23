@@ -32,7 +32,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="BASE_URL_1" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_1</stringProp>
-            <stringProp name="Argument.value">image-recognition-aws-1-1234968651.us-east-1.elb.amazonaws.com</stringProp>
+            <stringProp name="Argument.value">image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -56,7 +56,7 @@
       <hashTree/>
       <DNSCacheManager guiclass="DNSCachePanel" testclass="DNSCacheManager" testname="DNS Cache Manager" enabled="true">
         <collectionProp name="DNSCacheManager.servers">
-          <stringProp name="-1204172806">image-recognition-aws-1-1234968651.us-east-1.elb.amazonaws.com</stringProp>
+          <stringProp name="234654608">image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com</stringProp>
         </collectionProp>
         <boolProp name="DNSCacheManager.clearEachIteration">true</boolProp>
         <boolProp name="DNSCacheManager.isCustomResolver">false</boolProp>
@@ -81,33 +81,33 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="1779617818">
+          <collectionProp name="1835608291">
             <stringProp name="1572">15</stringProp>
             <stringProp name="0">0</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="53430">600</stringProp>
-            <stringProp name="0"></stringProp>
+            <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="-595976150">
+          <collectionProp name="-539985677">
             <stringProp name="1572">15</stringProp>
             <stringProp name="48873">180</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="51570">420</stringProp>
-            <stringProp name="0"></stringProp>
+            <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="1125848307">
+          <collectionProp name="1181838780">
             <stringProp name="1572">15</stringProp>
             <stringProp name="50733">360</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="49710">240</stringProp>
-            <stringProp name="0"></stringProp>
+            <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="995763340">
+          <collectionProp name="1051753813">
             <stringProp name="1572">15</stringProp>
             <stringProp name="52593">540</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="1722">60</stringProp>
-            <stringProp name="0"></stringProp>
+            <stringProp name="1629">30</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
