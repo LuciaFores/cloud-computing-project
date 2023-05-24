@@ -32,7 +32,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="BASE_URL_1" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_1</stringProp>
-            <stringProp name="Argument.value">image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com</stringProp>
+            <stringProp name="Argument.value">Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -81,29 +81,29 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="1835608291">
-            <stringProp name="1572">15</stringProp>
+          <collectionProp name="1023047088">
+            <stringProp name="53">5</stringProp>
             <stringProp name="0">0</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="53430">600</stringProp>
             <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="-539985677">
-            <stringProp name="1572">15</stringProp>
+          <collectionProp name="-1352546880">
+            <stringProp name="53">5</stringProp>
             <stringProp name="48873">180</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="51570">420</stringProp>
             <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="1181838780">
-            <stringProp name="1572">15</stringProp>
+          <collectionProp name="369277577">
+            <stringProp name="53">5</stringProp>
             <stringProp name="50733">360</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="49710">240</stringProp>
             <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="1051753813">
-            <stringProp name="1572">15</stringProp>
+          <collectionProp name="239192610">
+            <stringProp name="53">5</stringProp>
             <stringProp name="52593">540</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="1722">60</stringProp>
@@ -151,15 +151,23 @@
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request POST" enabled="true">
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="/home/lucia/Scaricati/rsz_dataset-card.jpg" elementType="HTTPFileArg">
+                <elementProp name="${fileName}" elementType="HTTPFileArg">
                   <stringProp name="File.mimetype">image/jpeg</stringProp>
-                  <stringProp name="File.path">/home/lucia/Scaricati/rsz_dataset-card.jpg</stringProp>
+                  <stringProp name="File.path">${fileName}</stringProp>
                   <stringProp name="File.paramname">file</stringProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="fileName" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">${fileName}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">fileName</stringProp>
+                </elementProp>
+              </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
             <stringProp name="HTTPSampler.port">8080</stringProp>
@@ -189,6 +197,27 @@
                 </elementProp>
               </collectionProp>
             </HeaderManager>
+            <hashTree/>
+            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="script">import java.io.File
+import org.apache.commons.io.FileUtils
+
+// Set the directory path where the image files are stored
+String directoryPath = &quot;/Users/weidongcai/Desktop/random_image&quot;
+
+// Get all the files in the directory
+List&lt;File&gt; files = FileUtils.listFiles(new File(directoryPath), null, false).toList()
+
+// Select a random file
+File randomFile = files[new Random().nextInt(files.size())]
+
+// Assign the file path to the parameter
+vars.put(&quot;fileName&quot;, randomFile.getAbsolutePath())</stringProp>
+              <stringProp name="scriptLanguage">groovy</stringProp>
+            </JSR223PreProcessor>
             <hashTree/>
           </hashTree>
           <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
