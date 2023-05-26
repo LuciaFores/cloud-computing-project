@@ -81,33 +81,40 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="1023047088">
+          <collectionProp name="618317088">
             <stringProp name="53">5</stringProp>
-            <stringProp name="0">0</stringProp>
+            <stringProp name="48">0</stringProp>
+            <stringProp name="1722">60</stringProp>
+            <stringProp name="54639">780</stringProp>
+            <stringProp name="1629">30</stringProp>
+          </collectionProp>
+          <collectionProp name="782748982">
+            <stringProp name="53">5</stringProp>
+            <stringProp name="48873">180</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="53430">600</stringProp>
             <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="-1352546880">
+          <collectionProp name="-1073564737">
             <stringProp name="53">5</stringProp>
-            <stringProp name="48873">180</stringProp>
+            <stringProp name="50733">360</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="51570">420</stringProp>
             <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="369277577">
+          <collectionProp name="1830058422">
             <stringProp name="53">5</stringProp>
-            <stringProp name="50733">360</stringProp>
+            <stringProp name="52593">540</stringProp>
             <stringProp name="1722">60</stringProp>
             <stringProp name="49710">240</stringProp>
             <stringProp name="1629">30</stringProp>
           </collectionProp>
-          <collectionProp name="239192610">
-            <stringProp name="53">5</stringProp>
-            <stringProp name="52593">540</stringProp>
+          <collectionProp name="-1877418024">
+            <stringProp reference="../../collectionProp/stringProp"/>
+            <stringProp name="54453">720</stringProp>
+            <stringProp reference="../../collectionProp/stringProp[3]"/>
             <stringProp name="1722">60</stringProp>
-            <stringProp name="1722">60</stringProp>
-            <stringProp name="1629">30</stringProp>
+            <stringProp reference="../../collectionProp/stringProp[5]"/>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -206,7 +213,7 @@
 import org.apache.commons.io.FileUtils
 
 // Set the directory path where the image files are stored
-String directoryPath = &quot;/Users/weidongcai/Desktop/random_image&quot;
+String directoryPath = &quot;/Users/jngelena/Desktop/cloud-computing-project/test_images&quot;
 
 // Get all the files in the directory
 List&lt;File&gt; files = FileUtils.listFiles(new File(directoryPath), null, false).toList()

@@ -1,0 +1,728 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1685131072589,296,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,1,1,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,289,0,152
+1685131084526,231,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,115
+1685131079147,6788,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5150,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,6788,0,0
+1685131072529,7084,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5562,2,2,null,7077,6326,152
+1685131085952,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,112
+1685131086641,8306,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16142,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,8305,0,0
+1685131085939,8533,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16554,2,2,null,8532,477,112
+1685131088512,6530,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5154,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,6530,0,0
+1685131084523,6761,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5566,2,2,null,6761,3760,115
+1685131094950,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131095046,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,2,2,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,120
+1685131096524,342,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,3,3,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,342,0,115
+1685131096379,12321,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6145,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,12321,0,0
+1685131094950,12560,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,6557,4,4,null,12560,1192,118
+1685131108522,253,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,253,0,123
+1685131108702,257,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,257,0,112
+1685131098195,11292,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5126,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,11292,0,0
+1685131096521,11634,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5538,4,4,null,11634,1335,115
+1685131100647,8840,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5097,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,8840,0,0
+1685131095045,9080,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5509,4,4,null,9080,5368,120
+1685131109492,231,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,113
+1685131109492,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,4,4,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131120524,265,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,265,0,119
+1685131109992,19975,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5097,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,19975,0,0
+1685131108702,20232,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5509,5,5,null,20232,1035,112
+1685131110887,19209,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,16146,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,19203,0,0
+1685131109490,19440,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,16558,5,5,null,19434,1167,113
+1685131110751,19350,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16106,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,19343,0,0
+1685131108520,19603,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16518,5,5,null,19596,1979,123
+1685131129971,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,112
+1685131130098,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,112
+1685131130102,243,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,243,0,118
+1685131116409,18473,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,6145,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,18473,0,0
+1685131109492,18713,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,6557,5,5,null,18712,6680,118
+1685131122941,12050,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6149,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,12050,0,0
+1685131120521,12315,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6561,5,5,null,12315,2158,119
+1685131134887,254,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,254,0,117
+1685131134996,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,112
+1685131131379,22999,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,8897,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22998,0,0
+1685131129970,23228,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,9309,5,5,null,23226,1182,112
+1685131131955,22453,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,6133,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22452,0,0
+1685131130102,22696,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,6545,5,5,null,22695,1611,118
+1685131131581,22828,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,16130,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22828,0,0
+1685131130097,23068,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,16542,5,5,null,23068,1245,112
+1685131136319,18098,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8897,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,18097,0,0
+1685131134995,18344,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,9309,5,5,null,18343,1078,112
+1685131141803,12723,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5158,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,12722,0,0
+1685131134885,12977,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5570,5,5,null,12976,6665,117
+1685131154382,307,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,307,0,189
+1685131154410,279,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,279,0,161
+1685131154418,279,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,279,0,158
+1685131154411,286,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,286,0,166
+1685131154528,228,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,112
+1685131155324,22977,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6129,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22977,0,0
+1685131154418,23256,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6541,5,5,null,23256,630,158
+1685131156706,21748,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5158,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21748,0,0
+1685131154410,22034,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5570,5,5,null,22034,2012,166
+1685131178305,245,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,245,0,118
+1685131178457,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,241,0,117
+1685131155830,22893,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5117,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22893,0,0
+1685131154409,23172,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5529,5,5,null,23172,1143,161
+1685131161616,17136,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5093,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,17136,0,0
+1685131154380,17443,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5505,5,5,null,17443,6931,189
+1685131160420,18338,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5117,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,18338,0,0
+1685131154528,18566,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5529,5,5,null,18566,5664,112
+1685131178725,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,112
+1685131178754,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,113
+1685131178758,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,117
+1685131179686,23601,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8913,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,23601,0,0
+1685131183486,19802,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5113,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,19802,0,0
+1685131178753,20031,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5525,5,5,null,20031,4506,113
+1685131178303,23846,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,9325,5,5,null,23846,1143,118
+1685131181015,22340,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5085,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22340,0,0
+1685131178723,22567,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5497,5,5,null,22567,2065,112
+1685131180530,22828,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,16146,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22828,0,0
+1685131178456,23069,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,16558,5,5,null,23069,1833,117
+1685131180497,22862,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5121,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22862,0,0
+1685131178758,23099,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5533,5,5,null,23099,1503,117
+1685131203292,233,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,233,0,115
+1685131203292,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,120
+1685131203358,248,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,247,0,114
+1685131203360,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,112
+1685131203356,254,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,254,0,116
+1685131204754,21268,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5134,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21265,0,0
+1685131203292,21508,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,5546,5,5,null,21505,1224,120
+1685131226026,233,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,233,0,112
+1685131207149,20714,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5117,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,20713,0,0
+1685131207352,20513,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16118,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,20513,0,0
+1685131203360,20960,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5529,5,5,null,20959,3545,112
+1685131203355,20767,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16530,5,5,null,20767,3743,116
+1685131207218,20651,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5150,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,20651,0,0
+1685131203291,20884,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5562,5,5,null,20884,3695,115
+1685131206487,21377,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6137,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21376,0,0
+1685131203358,21625,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6549,5,5,null,21623,2888,114
+1685131227871,228,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,112
+1685131227872,230,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,230,0,113
+1685131227867,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,119
+1685131227867,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,121
+1685131229185,21003,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,6133,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21003,0,0
+1685131227866,21244,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,6545,5,5,null,21243,1080,121
+1685131250192,282,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,282,0,162
+1685131232438,19565,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6133,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,19564,0,0
+1685131227870,19793,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,6545,5,5,null,19792,4341,112
+1685131230901,21200,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8913,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21200,0,0
+1685131226024,21433,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,9325,5,5,null,21433,4645,112
+1685131232066,20058,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,8877,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,20058,0,0
+1685131227871,20288,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,9289,5,5,null,20288,3966,113
+1685131231265,20876,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16130,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,20876,0,0
+1685131227866,21115,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16542,5,5,null,21115,3161,119
+1685131252006,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,117
+1685131252103,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,118
+1685131252126,226,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,112
+1685131252143,228,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,5,5,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,114
+1685131252524,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,6,6,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,117
+1685131253168,9614,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5089,6,6,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,9614,0,0
+1685131250190,9896,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5501,6,6,null,9896,2701,162
+1685131262789,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,6,6,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131264527,235,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,7,7,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,114
+1685131276525,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,8,8,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,120
+1685131288525,231,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,116
+1685131255766,33872,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,6121,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,33872,0,0
+1685131252142,34100,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,6533,9,9,null,34100,3398,114
+1685131256547,33191,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6153,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,33191,0,0
+1685131252125,33417,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6565,9,9,null,33417,4197,112
+1685131256923,32843,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,16138,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,32843,0,0
+1685131252522,33080,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,16550,9,9,null,33079,4164,117
+1685131289641,289,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,289,0,117
+1685131289740,309,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,309,0,119
+1685131289766,324,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,323,0,111
+1685131257233,33371,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,8881,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,33371,0,0
+1685131257892,32712,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6133,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,32712,0,0
+1685131252005,33611,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,9293,9,9,null,33610,4990,117
+1685131252102,32951,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6545,9,9,null,32950,5553,118
+1685131266299,24311,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16122,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,24311,0,0
+1685131262787,24550,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16534,9,9,null,24550,3273,118
+1685131290607,231,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,114
+1685131290610,250,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,250,0,111
+1685131290607,261,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,260,0,119
+1685131269866,24648,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,16126,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,24648,0,0
+1685131264523,24883,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,16538,9,9,null,24883,5110,114
+1685131294517,275,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,275,0,117
+1685131278578,16441,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,16142,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,16441,0,0
+1685131276522,16687,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,16554,9,9,null,16687,1811,120
+1685131295021,243,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,9,9,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,243,0,117
+1685131300525,281,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,275,0,120
+1685131293088,39737,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5113,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,39736,0,0
+1685131289640,40026,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5525,10,10,null,40025,3160,117
+1685131300135,32947,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5134,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,32946,0,0
+1685131294516,33222,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5546,10,10,null,33221,5346,117
+1685131291062,42035,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5154,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,42035,0,0
+1685131289739,42344,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5566,10,10,null,42344,1015,119
+1685131332828,334,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,334,0,201
+1685131333084,260,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,260,0,118
+1685131333099,265,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,264,0,114
+1685131291941,41530,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16146,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,41529,0,0
+1685131290610,41780,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16558,10,10,null,41779,1082,111
+1685131333474,230,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,230,0,112
+1685131293491,40397,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6161,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,40396,0,0
+1685131290606,40658,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6573,10,10,null,40656,2625,119
+1685131301434,32475,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,16110,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,32475,0,0
+1685131295020,32718,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,16522,10,10,null,32718,6172,117
+1685131295010,38916,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5138,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,38916,0,0
+1685131290606,39147,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5550,10,10,null,39147,4174,114
+1685131295802,38129,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,16118,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,38127,0,0
+1685131288522,38360,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,16530,10,10,null,38358,7050,116
+1685131307351,26587,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,6121,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,26586,0,0
+1685131300522,26868,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,6533,10,10,null,26861,6548,120
+1685131296120,37818,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5085,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,37818,0,0
+1685131289765,38142,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5497,10,10,null,38141,6031,111
+1685131333891,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,119
+1685131333911,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,117
+1685131333928,226,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,111
+1685131333939,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,112
+1685131333939,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,112
+1685131333933,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,116
+1685131335000,34178,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,6157,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,34177,0,0
+1685131333938,34405,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,6569,10,10,null,34404,836,112
+1685131369180,242,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,121
+1685131335519,45512,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16110,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,45511,0,0
+1685131332827,45846,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16522,10,10,null,45845,2362,201
+1685131339231,41875,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,8917,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,41875,0,0
+1685131333938,42102,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,9329,10,10,null,42102,5068,112
+1685131336011,45107,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,5117,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,45106,0,0
+1685131333910,45344,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,5529,10,10,null,45343,1864,117
+1685131337684,43473,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5158,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,43473,0,0
+1685131333889,43712,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,5570,10,10,null,43712,3556,119
+1685131337439,43831,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,8917,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,43831,0,0
+1685131333084,44091,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,9329,10,10,null,44091,4096,118
+1685131337170,44128,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,5134,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,44128,0,0
+1685131333932,44366,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,5546,10,10,null,44366,3001,116
+1685131381036,266,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,266,0,111
+1685131381109,260,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,259,0,113
+1685131381117,256,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,256,0,117
+1685131381157,259,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,259,0,112
+1685131337737,43743,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5089,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,43743,0,0
+1685131333472,43973,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5501,10,10,null,43973,4036,112
+1685131381270,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,117
+1685131381299,232,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,232,0,115
+1685131381482,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,113
+1685131340738,43546,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5125,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,43545,0,0
+1685131333927,43772,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5537,10,10,null,43771,6586,111
+1685131336649,47676,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6161,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,47676,0,0
+1685131333098,47941,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6573,10,10,null,47940,3287,114
+1685131384286,271,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,268,0,118
+1685131384327,248,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,248,0,113
+1685131370895,14421,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5093,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,14420,0,0
+1685131369178,14663,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,5505,10,10,null,14662,1477,121
+1685131385319,242,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,113
+1685131381994,42275,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,6133,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,42275,0,0
+1685131381117,42531,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,6545,10,10,null,42531,622,117
+1685131424271,284,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,284,0,165
+1685131381913,44711,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,8917,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,44711,0,0
+1685131381270,44949,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,9329,10,10,null,44949,406,117
+1685131426626,236,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,113
+1685131383955,43900,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,6121,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,43900,0,0
+1685131381108,44160,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,6533,10,10,null,44159,2589,113
+1685131386453,41435,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6125,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,41435,0,0
+1685131381156,41694,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6537,10,10,null,41694,5041,112
+1685131387135,40812,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,16122,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,40812,0,0
+1685131385318,41054,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,16534,10,10,null,41054,1578,113
+1685131387633,40318,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5105,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,40318,0,0
+1685131384285,40589,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5517,10,10,null,40586,3078,118
+1685131387143,40846,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5162,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,40846,0,0
+1685131381034,41112,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5574,10,10,null,41112,5844,111
+1685131386343,41660,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16126,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,41660,0,0
+1685131381480,41889,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16538,10,10,null,41889,4635,113
+1685131387521,40514,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,8913,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,40513,0,0
+1685131381298,40746,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,9325,10,10,null,40745,5993,115
+1685131386124,41915,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,8905,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,41915,0,0
+1685131384325,42163,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,9317,10,10,null,42163,1553,113
+1685131427858,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,119
+1685131427892,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,118
+1685131427951,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,113
+1685131427952,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,118
+1685131427990,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,112
+1685131428004,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,114
+1685131428037,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,117
+1685131428040,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,117
+1685131428942,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,6153,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131428036,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,6565,10,10,null,358,671,117
+1685131429067,233,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,232,0,114
+1685131429659,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,6125,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131427949,348,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,6537,10,10,null,347,1483,113
+1685131429743,115,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,6137,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,115,0,0
+1685131426624,351,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,6549,10,10,null,350,2884,113
+1685131429782,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131429861,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,244,0,119
+1685131430090,117,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,6145,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,117,0,0
+1685131429066,350,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,6557,10,10,null,349,793,114
+1685131430119,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5121,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131424270,405,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,5533,10,10,null,405,5566,165
+1685131430211,253,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,251,0,117
+1685131430242,232,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,115
+1685131430384,118,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,16122,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,117,0,0
+1685131427989,345,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2856,16534,10,10,null,344,2169,112
+1685131430505,230,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,230,0,114
+1685131430930,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,5121,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131427856,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-10,,false,,1358,5533,10,10,null,359,2838,119
+1685131431055,248,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,248,0,127
+1685131431687,118,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,5105,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,118,0,0
+1685131429781,344,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,5517,10,10,null,344,1681,113
+1685131431808,225,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,225,0,112
+1685131432400,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,8889,10,10,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131428004,349,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2856,9301,10,10,null,349,4168,114
+1685131432523,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,113
+1685131432526,259,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,259,0,118
+1685131432737,116,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,5113,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,116,0,0
+1685131431806,341,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,5525,11,11,null,341,707,112
+1685131432856,231,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,116
+1685131434073,125,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,6137,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,125,0,0
+1685131430209,378,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,6549,11,11,null,376,3612,117
+1685131434139,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,5089,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,123,0,0
+1685131427951,360,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-5,,false,,1358,5501,11,11,null,360,5952,118
+1685131434201,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131434265,239,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131434489,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,6137,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,123,0,0
+1685131428040,361,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2856,6549,11,11,null,361,6212,117
+1685131434614,247,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,247,0,114
+1685131435258,124,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5150,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,124,0,0
+1685131429859,370,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,5562,11,11,null,368,5154,119
+1685131435384,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,119
+1685131436714,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,6129,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131430241,354,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,6541,11,11,null,353,6242,115
+1685131436839,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131429671,7526,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5125,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,7526,0,0
+1685131427890,7763,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,5537,11,11,null,7763,1545,118
+1685131437200,225,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,225,0,113
+1685131437729,116,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,6125,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,116,0,0
+1685131432854,347,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,6537,11,11,null,347,4644,116
+1685131437846,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,117
+1685131438500,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,8909,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,123,0,0
+1685131437845,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,9321,11,11,null,359,420,117
+1685131438626,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,119
+1685131440189,117,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5130,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,117,0,0
+1685131436837,343,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,5542,11,11,null,343,3129,113
+1685131440284,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5101,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131435383,357,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,5513,11,11,null,357,4665,119
+1685131440406,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,113
+1685131440311,363,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,363,0,112
+1685131440932,125,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,5105,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,124,0,0
+1685131434200,364,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,5517,11,11,null,363,6493,118
+1685131441059,319,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,319,0,119
+1685131441926,118,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,16118,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,118,0,0
+1685131440405,345,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,16530,11,11,null,345,1295,113
+1685131442046,235,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,117
+1685131442498,118,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,6157,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,118,0,0
+1685131440309,481,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,6569,11,11,null,481,1827,112
+1685131442600,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,6129,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131441058,441,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,6541,11,11,null,441,1224,119
+1685131442618,285,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,285,0,113
+1685131442725,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131443469,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,16146,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131442723,346,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,16558,11,11,null,346,521,113
+1685131443591,243,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,11,11,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,243,0,119
+1685131444527,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,412,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,118
+1685131444664,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,5101,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131443590,363,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,5513,12,12,null,363,832,119
+1685131444786,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,114
+1685131445794,117,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,8909,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,116,0,0
+1685131444785,357,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,9321,12,12,null,356,769,114
+1685131445912,228,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,114
+1685131450540,130,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,5117,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,130,0,0
+1685131444524,366,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-14,,false,,1358,5529,12,12,null,366,5783,118
+1685131450673,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,412,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,118
+1685131452248,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,8881,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131445911,350,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,9293,12,12,null,350,6109,114
+1685131452373,228,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,112
+1685131453325,115,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,8909,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,115,0,0
+1685131452371,343,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,9321,12,12,null,343,727,112
+1685131453443,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,12,12,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,118
+1685131456527,243,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-13,text,false,,679,412,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,243,0,121
+1685131457111,125,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,5158,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,125,0,0
+1685131453441,361,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,5570,13,13,null,361,3435,118
+1685131457239,225,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,225,0,112
+1685131431924,27587,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5142,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,27587,0,0
+1685131431053,27835,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5554,13,13,null,27835,624,127
+1685131459514,265,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,258,0,114
+1685131463365,119,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,16110,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,118,0,0
+1685131457237,344,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,16522,13,13,null,343,5903,112
+1685131463486,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,119
+1685131466677,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,8885,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131459513,385,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2856,9297,13,13,null,378,6900,114
+1685131466801,234,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,234,0,113
+1685131468005,126,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,5126,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,126,0,0
+1685131463485,364,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,5538,13,13,null,364,4283,119
+1685131468134,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,13,13,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,119
+1685131468524,235,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-12,text,false,,679,412,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,117
+1685131469856,124,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-12,text,false,,679,8913,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,124,0,0
+1685131468519,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-12,,false,,1358,9325,14,14,null,359,1103,117
+1685131469983,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-12,text,false,,679,412,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131471570,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,8913,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,123,0,0
+1685131468133,369,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,9325,14,14,null,369,3191,119
+1685131471695,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,114
+1685131434891,41807,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,5117,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,41807,0,0
+1685131432522,42066,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-15,,true,,4403,5529,14,14,null,42066,2112,118
+1685131476701,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-15,text,false,,679,412,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,120
+1685131478018,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-15,text,false,,679,8901,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131476700,360,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-15,,false,,1358,9313,14,14,null,359,1081,120
+1685131478143,245,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,412,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,245,0,118
+1685131478441,116,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,5142,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,116,0,0
+1685131471694,343,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,5554,14,14,null,343,6522,114
+1685131478560,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,14,14,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131480523,271,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,270,0,115
+1685131483067,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,16110,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131478559,348,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,16522,15,15,null,347,4283,113
+1685131483191,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,225,0,112
+1685131438160,46423,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6121,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,46422,0,0
+1685131437199,46648,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2905,6533,15,15,null,46647,737,113
+1685131440968,43627,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5121,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,43627,0,0
+1685131434263,43866,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2905,5533,15,15,null,43866,6467,118
+1685131484585,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,118
+1685131484596,279,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,279,0,122
+1685131484911,116,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-11,text,false,,679,8901,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,115,0,0
+1685131480521,387,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2856,9313,15,15,null,385,4120,115
+1685131485036,113,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,16134,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,113,0,0
+1685131483189,339,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,16546,15,15,null,338,1622,112
+1685131485029,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-11,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131485151,242,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,113
+1685131439898,46731,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,6157,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,46730,0,0
+1685131438624,46969,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2905,6569,15,15,null,46967,1037,119
+1685131486631,242,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,121
+1685131486759,124,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,5125,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,124,0,0
+1685131484583,362,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-1,,false,,1358,5537,15,15,null,362,1938,118
+1685131486884,235,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,117
+1685131441550,46003,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5126,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,46002,0,0
+1685131434613,46250,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5538,15,15,null,46249,6692,114
+1685131487556,231,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,230,0,112
+1685131488180,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,6125,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131486883,357,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-1,,false,,1358,6537,15,15,null,357,1063,117
+1685131488305,226,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,113
+1685131490043,125,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,5126,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,125,0,0
+1685131486629,367,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,5538,15,15,null,367,3173,121
+1685131490170,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,119
+1685131437176,53410,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,6133,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,53409,0,0
+1685131430503,53640,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,6545,15,15,null,53639,6444,114
+1685131437135,53463,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8909,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,53462,0,0
+1685131432522,53690,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2905,9321,15,15,null,53689,4386,113
+1685131447802,42917,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,16114,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,42916,0,0
+1685131442617,43202,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,16526,15,15,null,43201,4902,113
+1685131490588,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,119
+1685131490598,251,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,251,0,113
+1685131490721,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,113
+1685131490919,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-11,text,false,,679,6161,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131485028,347,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-11,,false,,1358,6573,15,15,null,347,5665,113
+1685131491036,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,8889,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,119,0,0
+1685131488304,346,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-1,,false,,1358,9301,15,15,null,345,2506,113
+1685131491041,315,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,314,0,129
+1685131491158,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,113
+1685131447137,44375,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5109,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,44375,0,0
+1685131442045,44610,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2905,5521,15,15,null,44610,4859,117
+1685131491620,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,8885,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131490586,356,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-2,,false,,1358,9297,15,15,null,356,799,119
+1685131491515,233,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,233,0,116
+1685131491735,116,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,16110,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,116,0,0
+1685131490720,343,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,16522,15,15,null,343,789,113
+1685131491743,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,118
+1685131491853,254,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,254,0,113
+1685131492876,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5093,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131491513,354,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,5505,15,15,null,354,1131,116
+1685131492999,229,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,115
+1685131495036,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,6121,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131491741,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-2,,false,,1358,6533,15,15,null,359,3059,118
+1685131495161,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,117
+1685131496003,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,5093,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131490597,371,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2856,5505,15,15,null,371,5156,113
+1685131496125,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,118
+1685131496684,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-11,text,false,,679,6137,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,123,0,0
+1685131491040,438,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2856,6549,15,15,null,437,5330,129
+1685131496756,115,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5113,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,115,0,0
+1685131491852,369,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,5525,15,15,null,369,4651,113
+1685131496809,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,241,0,113
+1685131496873,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,114
+1685131497953,127,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,5125,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,127,0,0
+1685131495159,364,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-2,,false,,1358,5537,15,15,null,363,2558,117
+1685131498082,318,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,317,0,119
+1685131454499,44020,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2226,8917,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,44019,0,0
+1685131450672,44256,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2905,9329,15,15,null,44255,3591,118
+1685131498520,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,117
+1685131498762,119,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,6157,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,118,0,0
+1685131492998,348,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,6569,15,15,null,347,5535,115
+1685131498882,236,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,114
+1685131499702,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,8901,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131498081,439,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2856,9313,15,15,null,438,1304,119
+1685131499825,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,118
+1685131501553,158,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,16134,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,158,0,0
+1685131496872,385,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,16546,15,15,null,385,4454,114
+1685131470456,31469,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5109,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,31469,0,0
+1685131466800,31703,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5521,15,15,null,31703,3423,113
+1685131501713,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,119
+1685131501927,232,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,232,0,114
+1685131502970,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,6141,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131501712,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,6553,15,15,null,359,1021,119
+1685131503038,115,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,5105,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,115,0,0
+1685131501925,347,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2856,5517,15,15,null,347,882,114
+1685131503095,236,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,118
+1685131503156,242,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,112
+1685131503473,117,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,8913,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,117,0,0
+1685131498881,353,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,9325,15,15,null,352,4357,114
+1685131503593,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,232,0,114
+1685131474672,29162,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,16146,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,29162,0,0
+1685131469981,29388,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2905,16558,15,15,null,29388,4466,113
+1685131503835,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-12,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,119
+1685131459259,45292,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2226,5130,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,45292,0,0
+1685131456524,45535,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2905,5542,15,15,null,45535,2493,121
+1685131504552,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-13,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,118
+1685131504931,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,16138,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131498519,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-14,,false,,1358,16550,15,15,null,358,6176,117
+1685131505056,229,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,114
+1685131505230,116,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5109,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,116,0,0
+1685131503591,356,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,5521,15,15,null,348,1399,114
+1685131505348,250,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,250,0,114
+1685131505949,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-13,text,false,,679,6133,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685131504551,359,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-13,,false,,1358,6545,15,15,null,359,1162,118
+1685131506119,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,16118,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131503093,357,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,16530,15,15,null,357,2791,118
+1685131506074,268,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,268,0,119
+1685131506243,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,114
+1685131507271,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,16114,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,120,0,0
+1685131506242,347,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,16526,15,15,null,347,803,114
+1685131507393,240,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,120
+1685131508806,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,5150,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685131505055,350,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-14,,false,,1358,5562,15,15,null,350,3523,114
+1685131508930,237,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,118
+1685131510193,125,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,8881,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,125,0,0
+1685131508928,362,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-14,,false,,1358,9293,15,15,null,362,1028,118
+1685131510320,227,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-14,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,113
+1685131512171,120,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,8885,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,119,0,0
+1685131505347,370,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,9297,15,15,null,369,6574,114
+1685131512353,123,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-13,text,false,,679,16106,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,123,0,0
+1685131506073,391,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2856,16518,15,15,null,391,6012,119
+1685131512293,228,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,114
+1685131512478,238,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-13,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,119
+1685131484594,50677,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,8877,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,50677,0,0
+1685131478141,50922,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-15,,true,,4403,9289,15,15,null,50922,6212,118
+1685131535274,277,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-15,text,false,,679,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,277,0,158
+1685131487902,58531,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,5134,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,58531,0,0
+1685131485150,58773,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,5546,15,15,null,58773,2511,113
+1685131546435,248,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,247,0,118
+1685131540464,6582,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,16106,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,6582,0,0
+1685131535273,6859,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2905,16518,15,15,null,6859,4915,158
+1685131547049,253,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,253,0,114
+1685131489305,60200,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,6145,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60200,0,0
+1685131484595,60479,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,6557,15,15,null,60479,4432,122
+1685131549506,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,114
+1685131494107,60211,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,8881,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60211,0,0
+1685131487555,60442,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,9293,15,15,null,60441,6321,112
+1685131494819,59664,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5101,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,59663,0,0
+1685131491156,59893,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,5513,15,15,null,59892,3435,113
+1685131499338,55189,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5121,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,55189,0,0
+1685131496124,55426,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2905,5533,15,15,null,55425,2978,118
+1685131554320,252,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,252,0,118
+1685131554485,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131554530,254,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,254,0,113
+1685131508129,47731,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,8877,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,47731,0,0
+1685131503154,47973,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,9289,15,15,null,47973,4734,112
+1685131502169,53733,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2226,8913,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,53733,0,0
+1685131496808,53974,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-11,,true,,4403,9325,15,15,null,53974,5120,113
+1685131496311,59624,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5166,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,59624,0,0
+1685131490169,59862,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2905,5578,15,15,null,59862,5904,119
+1685131519529,36406,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2226,16114,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,36406,0,0
+1685131512477,36644,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2905,16526,15,15,null,36643,6814,119
+1685131509313,46642,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,8885,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,46642,0,0
+1685131507392,46882,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2905,9297,15,15,null,46882,1681,120
+1685131505143,50834,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,8909,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,50833,0,0
+1685131499824,51071,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2905,9321,15,15,null,51069,5082,118
+1685131513025,42965,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,8893,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,42965,0,0
+1685131512292,43193,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2905,9305,15,15,null,43193,505,114
+1685131509826,46194,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,6129,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,46193,0,0
+1685131503835,46432,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2905,6541,15,15,null,46431,5754,119
+1685131511669,44356,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2226,5166,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,44355,0,0
+1685131510319,44583,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2905,5578,15,15,null,44582,1123,113
+1685131555862,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,117
+1685131555902,228,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,112
+1685131555935,228,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,228,0,113
+1685131555955,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,117
+1685131555936,258,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,258,0,117
+1685131555977,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,113
+1685131555991,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,227,0,112
+1685131556022,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,117
+1685131556025,254,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,254,0,118
+1685131551478,19941,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,8905,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,19941,0,0
+1685131546433,20189,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,9317,15,15,null,20188,4797,118
+1685131571421,232,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,232,0,116
+1685131557420,16148,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16138,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,16148,0,0
+1685131554529,16402,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16550,15,15,null,16402,2639,113
+1685131573571,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,114
+1685131559415,15513,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2226,16126,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,15513,0,0
+1685131555935,15771,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-13,,true,,4403,16538,15,15,null,15771,3225,117
+1685131562804,12135,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,8913,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,12135,0,0
+1685131555990,12362,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,9325,15,15,null,12362,6588,112
+1685131559991,14963,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6141,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,14963,0,0
+1685131554484,15202,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6553,15,15,null,15202,5270,118
+1685131574932,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,118
+1685131574940,238,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,117
+1685131574957,226,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,111
+1685131560971,18985,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2226,8917,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,18984,0,0
+1685131556025,19239,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-14,,true,,4403,9329,15,15,null,19238,4693,118
+1685131557671,22332,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,6157,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22332,0,0
+1685131555861,22570,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,6569,15,15,null,22570,1574,117
+1685131561544,18469,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5154,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,18467,0,0
+1685131555935,18697,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,5566,15,15,null,18695,5382,113
+1685131558799,21247,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5162,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21247,0,0
+1685131555977,21484,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5574,15,15,null,21484,2587,113
+1685131579958,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,112
+1685131580005,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,113
+1685131580014,244,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,244,0,116
+1685131580048,247,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,247,0,117
+1685131552825,29435,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,16114,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,29435,0,0
+1685131547048,29688,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-15,,true,,4403,16526,15,15,null,29688,5524,114
+1685131575722,6558,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8881,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,6549,0,0
+1685131573570,6795,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,9293,15,15,null,6786,1916,114
+1685131555576,26761,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16142,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,26761,0,0
+1685131549505,26990,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16554,15,15,null,26990,5842,114
+1685131582282,234,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,234,0,111
+1685131582262,258,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,258,0,113
+1685131582338,302,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,302,0,119
+1685131558895,27046,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,8877,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,27045,0,0
+1685131554319,27298,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,9289,15,15,null,27297,4326,118
+1685131585944,276,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,275,0,117
+1685131577760,9736,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5109,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,9736,0,0
+1685131574956,9962,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,5521,15,15,null,9962,2579,111
+1685131578664,8831,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5121,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,8831,0,0
+1685131574939,9069,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5533,15,15,null,9069,3493,117
+1685131562829,24807,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,5113,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,24806,0,0
+1685131556021,25045,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-12,,true,,4403,5525,15,15,null,25044,6572,117
+1685131559330,28311,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,8905,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,28311,0,0
+1685131555955,28549,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,9317,15,15,null,28549,3138,117
+1685131587499,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,241,0,113
+1685131587502,247,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,112
+1685131561621,26275,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2226,5166,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,26275,0,0
+1685131555902,26503,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-11,,true,,4403,5578,15,15,null,26503,5493,112
+1685131587642,256,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,256,0,117
+1685131587638,272,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,272,0,118
+1685131587899,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,113
+1685131576834,30732,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2226,16118,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,30732,0,0
+1685131574930,30973,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-13,,true,,4403,16530,15,15,null,30972,1664,118
+1685131607568,241,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,241,0,121
+1685131578520,30480,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,6129,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,30480,0,0
+1685131571420,30712,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,6541,15,15,null,30712,6869,116
+1685131609002,251,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,251,0,118
+1685131589553,22724,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6145,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,22724,0,0
+1685131585468,26809,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16142,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,26809,0,0
+1685131582281,27043,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16554,15,15,null,27043,2954,111
+1685131587497,22965,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6557,15,15,null,22965,1816,113
+1685131583765,28516,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6157,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,28516,0,0
+1685131582337,28818,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,6569,15,15,null,28818,1126,119
+1685131591125,21162,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5125,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21162,0,0
+1685131587501,21409,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5537,15,15,null,21408,3379,112
+1685131591882,20416,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,16118,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,20416,0,0
+1685131587637,20688,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-12,,true,,4403,16530,15,15,null,20688,3975,118
+1685131612279,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,117
+1685131612279,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,15,15,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,118
+1685131612288,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,239,0,118
+1685131612300,227,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,226,0,112
+1685131612281,247,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,125
+1685131612522,232,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,231,0,114
+1685131583171,30843,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,8909,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,30843,0,0
+1685131582261,31101,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-15,,true,,4403,9321,16,16,null,31101,653,113
+1685131582218,31988,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16110,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,31988,0,0
+1685131580047,32235,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16522,16,16,null,32235,1925,117
+1685131614015,279,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,279,0,119
+1685131614207,336,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,335,0,119
+1685131609138,7463,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2226,5138,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,7463,0,0
+1685131607567,7704,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-13,,true,,4403,5550,16,16,null,7704,1331,121
+1685131616603,275,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,275,0,113
+1685131584949,33881,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,8881,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,33881,0,0
+1685131580013,34125,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,9293,16,16,null,34125,4693,116
+1685131589505,29528,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5117,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,29527,0,0
+1685131585942,29804,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5529,16,16,null,29802,3288,117
+1685131618832,235,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,234,0,113
+1685131619034,251,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,251,0,118
+1685131586456,32849,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2226,6157,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,32849,0,0
+1685131579957,33078,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-14,,true,,4403,6569,16,16,null,33078,6271,112
+1685131619305,294,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,294,0,113
+1685131591865,27735,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2226,5105,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,27732,0,0
+1685131587898,27976,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-11,,true,,4403,5517,16,16,null,27972,3727,113
+1685131585166,34621,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5109,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,34621,0,0
+1685131580004,34858,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5521,16,16,null,34858,4927,113
+1685131591092,28723,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,8897,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,28723,0,0
+1685131587642,28979,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,9309,16,16,null,28979,3195,117
+1685131619602,254,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,254,0,118
+1685131619816,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,114
+1685131619789,271,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,16,16,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,271,0,119
+1685131624529,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,412,17,17,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,115
+1685131614160,13066,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6157,17,17,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,13066,0,0
+1685131612277,13303,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6569,17,17,null,13303,1647,118
+1685131627229,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,17,17,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,118
+1685131636531,229,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-18,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,229,0,113
+1685131614207,31349,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5105,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,31349,0,0
+1685131612280,31596,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5517,18,18,null,31595,1681,125
+1685131645559,314,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,314,0,166
+1685131615798,31195,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5130,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,31194,0,0
+1685131618869,28124,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,16122,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,28124,0,0
+1685131612299,28351,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-12,,true,,4403,16534,18,18,null,28350,6344,112
+1685131614206,31531,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5542,18,18,null,31529,1257,119
+1685131624999,21997,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5162,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,21997,0,0
+1685131622799,24197,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5097,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,24197,0,0
+1685131619788,22268,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5574,18,18,null,22268,4940,119
+1685131618831,24432,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,5509,18,18,null,24431,3733,113
+1685131616908,30088,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5085,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,30088,0,0
+1685131620979,26017,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,16114,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,26017,0,0
+1685131619033,26268,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,16526,18,18,null,26268,1695,118
+1685131612288,30327,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5497,18,18,null,30327,4381,118
+1685131646997,233,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,233,0,116
+1685131646997,233,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,233,0,115
+1685131646997,236,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,236,0,114
+1685131646997,243,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,122
+1685131646995,245,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,244,0,118
+1685131646995,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,412,18,18,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,124
+1685131648529,242,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-17,text,true,,2177,412,19,19,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,241,0,117
+1685131660521,233,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-16,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,233,0,116
+1685131616317,46955,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,6161,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,46955,0,0
+1685131609001,47206,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,6573,20,20,null,47206,7067,118
+1685131663274,246,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,246,0,119
+1685131648497,18092,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5093,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,18092,0,0
+1685131645557,18406,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5505,20,20,null,18406,2627,166
+1685131648978,17723,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16114,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,17723,0,0
+1685131646994,17968,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16526,20,20,null,17967,1741,118
+1685131666592,279,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,279,0,118
+1685131666704,234,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,234,0,113
+1685131652524,14743,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6137,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,14743,0,0
+1685131652897,14370,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5105,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,14370,0,0
+1685131646997,14976,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6549,20,20,null,14976,5295,115
+1685131646997,14603,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5517,20,20,null,14603,5668,116
+1685131667271,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,116
+1685131667270,252,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,252,0,112
+1685131672787,2773,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-9,text,false,,463,16106,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,2773,0,0
+1685131672553,3007,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-2,text,false,,463,6121,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,3007,0,0
+1685131666703,3241,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2640,6533,20,20,null,3241,5617,113
+1685131667269,3025,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2640,16518,20,20,null,3025,5267,112
+1685131675562,235,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,235,0,115
+1685131675562,265,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,263,0,115
+1685131670756,5272,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6157,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,5272,0,0
+1685131666590,5551,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,6569,20,20,null,5551,3888,118
+1685131676031,244,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,243,0,122
+1685131628831,49085,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8885,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,49084,0,0
+1685131627228,49325,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,9297,20,20,null,49324,1363,118
+1685131677917,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,237,0,117
+1685131626737,52101,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2226,5125,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,52101,0,0
+1685131624526,52338,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-19,,true,,4403,5537,20,20,null,52338,1975,115
+1685131618900,60119,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-20,text,false,,694,5138,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60119,0,0
+1685131612521,60351,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-20,,false,,2871,5550,20,20,null,60350,6148,114
+1685131678840,239,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,238,0,112
+1685131679020,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,240,0,118
+1685131619533,60121,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,6157,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60120,0,0
+1685131612277,60358,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,6569,20,20,null,60357,7019,117
+1685131679655,276,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,276,0,119
+1685131619943,60126,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,5125,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60126,0,0
+1685131614014,60405,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,5537,20,20,null,60405,5653,119
+1685131620094,60122,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,5089,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60122,0,0
+1685131616602,60397,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,5501,20,20,null,60397,3217,113
+1685131680073,265,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,265,0,116
+1685131680217,235,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,234,0,115
+1685131623190,57469,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,16122,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,57469,0,0
+1685131619815,57708,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,16534,20,20,null,57707,3137,114
+1685131680660,244,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,243,0,113
+1685131624742,60123,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,5097,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60123,0,0
+1685131619601,60377,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,5509,20,20,null,60377,4888,118
+1685131684867,244,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,242,0,117
+1685131625780,60124,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,6161,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,60124,0,0
+1685131619305,60418,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,6573,20,20,null,60418,6182,113
+1685131685905,270,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,412,20,20,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,270,0,116
+1685131697249,501,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-22,text,true,,2177,412,25,25,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,501,0,361
+1685131697249,505,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-25,text,true,,2177,412,25,25,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,505,0,363
+1685131697246,508,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-23,text,true,,2177,412,25,25,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,508,0,371
+1685131697249,505,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-24,text,true,,2177,412,25,25,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,505,0,368
+1685131697249,506,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-21,text,true,,2177,412,23,23,http://Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com:8080/,506,0,370

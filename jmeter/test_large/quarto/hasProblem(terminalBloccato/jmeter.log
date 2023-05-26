@@ -1,0 +1,373 @@
+2023-05-26 21:57:40,036 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-05-26 21:57:40,047 INFO o.a.j.JMeter: Loading user properties from: /Users/jngelena/Downloads/apache-jmeter-5.5/bin/user.properties
+2023-05-26 21:57:40,048 INFO o.a.j.JMeter: Loading system properties from: /Users/jngelena/Downloads/apache-jmeter-5.5/bin/system.properties
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: Version 5.5
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: java.version=17.0.7
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: os.name=Mac OS X
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: os.arch=aarch64
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: os.version=13.3
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: java.awt.headless=true
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-05-26 21:57:40,051 INFO o.a.j.JMeter: Available Processors =8
+2023-05-26 21:57:40,056 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-05-26 21:57:40,056 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-05-26 21:57:40,056 INFO o.a.j.JMeter: JMeterHome=/Users/jngelena/Downloads/apache-jmeter-5.5
+2023-05-26 21:57:40,056 INFO o.a.j.JMeter: user.dir  =/Users/jngelena/Desktop/cloud-computing-project/jmeter
+2023-05-26 21:57:40,056 INFO o.a.j.JMeter: PWD       =/Users/jngelena/Desktop/cloud-computing-project/jmeter
+2023-05-26 21:57:40,057 INFO o.a.j.JMeter: IP: 192.168.1.7 Name: ElenadeMacBook-Pro.local FullName: 192.168.1.7
+2023-05-26 21:57:40,063 INFO o.a.j.s.FileServer: Default base='/Users/jngelena/Desktop/cloud-computing-project/jmeter'
+2023-05-26 21:57:40,063 INFO o.a.j.s.FileServer: Set new base='/Users/jngelena/Desktop/cloud-computing-project/jmeter'
+2023-05-26 21:57:40,129 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-05-26 21:57:40,142 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-05-26 21:57:40,143 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-05-26 21:57:40,144 INFO o.a.j.s.SaveService: Loading file: aws_flask.jmx
+2023-05-26 21:57:40,167 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-05-26 21:57:40,168 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2023-05-26 21:57:40,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-26 21:57:40,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-26 21:57:40,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-26 21:57:40,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-26 21:57:40,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-05-26 21:57:40,177 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-26 21:57:40,363 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-05-26 21:57:40,369 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-26 21:57:40,370 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-26 21:57:40,370 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-26 21:57:40,372 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-05-26 21:57:40,372 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-05-26 21:57:40,502 INFO o.a.j.JMeter: Running test (1685131060502)
+2023-05-26 21:57:40,515 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2023-05-26 21:57:40,515 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group jp@gc - Ultimate Thread Group.
+2023-05-26 21:57:40,515 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-26 21:57:40,515 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 25
+2023-05-26 21:57:40,518 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-05-26 21:57:40,519 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-05-26 21:57:40,519 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-05-26 21:57:40,519 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-05-26 21:57:40,525 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-05-26 21:57:40,525 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-26 21:57:52,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-5
+2023-05-26 21:57:52,554 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ElenadeMacBook-Pro.local
+2023-05-26 21:57:52,560 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-05-26 21:57:52,894 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-26 21:57:59,148 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:57:59,156 INFO o.a.j.s.FileServer: Stored: /Users/jngelena/Desktop/cloud-computing-project/test_images/img64x64.jpg
+2023-05-26 21:58:04,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-4
+2023-05-26 21:58:04,763 INFO o.a.j.r.Summariser: summary +      2 in 00:00:24 =    0.1/s Avg:   263 Min:   231 Max:   296 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2023-05-26 21:58:05,948 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-05-26 21:58:05,949 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-05-26 21:58:06,642 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:06,643 INFO o.a.j.s.FileServer: Stored: /Users/jngelena/Desktop/cloud-computing-project/test_images/img512x512.jpg
+2023-05-26 21:58:08,512 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:16,381 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:16,382 INFO o.a.j.s.FileServer: Stored: /Users/jngelena/Desktop/cloud-computing-project/test_images/img128x128.jpg
+2023-05-26 21:58:16,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-3
+2023-05-26 21:58:18,196 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:20,648 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:20,650 INFO o.a.j.s.FileServer: Stored: /Users/jngelena/Desktop/cloud-computing-project/test_images/img32x32.jpg
+2023-05-26 21:58:28,518 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-2
+2023-05-26 21:58:29,993 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:30,752 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:30,888 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:36,410 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:40,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2023-05-26 21:58:42,942 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:51,380 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:51,381 INFO o.a.j.s.FileServer: Stored: /Users/jngelena/Desktop/cloud-computing-project/test_images/img256x256.jpg
+2023-05-26 21:58:51,581 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:51,955 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:58:56,319 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:01,804 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:15,324 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:15,831 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:16,706 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:20,421 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:21,616 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:39,687 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:40,498 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:40,531 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:41,015 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 21:59:43,486 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:03,291 INFO o.a.j.r.Summariser: summary +     46 in 00:01:59 =    0.4/s Avg:  8152 Min:   227 Max: 23601 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2023-05-26 22:00:03,292 INFO o.a.j.r.Summariser: summary =     48 in 00:02:23 =    0.3/s Avg:  7823 Min:   227 Max: 23601 Err:     0 (0.00%)
+2023-05-26 22:00:04,755 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:06,488 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:07,150 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:07,219 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:07,352 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:29,185 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:30,901 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:31,266 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:32,067 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:32,438 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:52,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-10
+2023-05-26 22:00:53,167 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:55,766 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:56,547 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:56,923 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:57,233 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:00:57,892 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:02,784 INFO o.a.j.r.Summariser: summary +     31 in 00:00:59 =    0.5/s Avg:  9952 Min:   226 Max: 22862 Err:     0 (0.00%) Active: 6 Started: 6 Finished: 0
+2023-05-26 22:01:02,786 INFO o.a.j.r.Summariser: summary =     79 in 00:03:22 =    0.4/s Avg:  8658 Min:   226 Max: 23601 Err:     0 (0.00%)
+2023-05-26 22:01:04,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-9
+2023-05-26 22:01:06,299 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:09,865 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:16,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-8
+2023-05-26 22:01:18,579 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:28,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-7
+2023-05-26 22:01:30,050 INFO o.a.j.r.Summariser: summary +      9 in 00:00:27 =    0.3/s Avg: 11272 Min:   231 Max: 33872 Err:     0 (0.00%) Active: 9 Started: 9 Finished: 0
+2023-05-26 22:01:30,050 INFO o.a.j.r.Summariser: summary =     88 in 00:03:50 =    0.4/s Avg:  8926 Min:   226 Max: 33872 Err:     0 (0.00%)
+2023-05-26 22:01:31,062 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:31,942 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:33,089 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:33,491 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:35,010 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:35,803 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:36,120 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:40,135 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:40,520 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-6
+2023-05-26 22:01:41,434 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:01:47,352 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:15,000 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:15,518 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:16,011 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:16,649 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:17,170 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:17,439 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:17,684 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:17,737 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:19,230 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:20,737 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:02:50,895 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:01,032 INFO o.a.j.r.Summariser: summary +     35 in 00:01:31 =    0.4/s Avg: 16752 Min:   226 Max: 45512 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2023-05-26 22:03:01,033 INFO o.a.j.r.Summariser: summary =    123 in 00:05:21 =    0.4/s Avg: 11153 Min:   226 Max: 45512 Err:     0 (0.00%)
+2023-05-26 22:03:01,913 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:01,994 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:03,955 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:06,125 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:06,344 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:06,454 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:07,136 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:07,144 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:07,522 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:07,634 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:48,943 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:49,660 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:49,671 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:49,743 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:50,091 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:50,119 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:50,384 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:50,930 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:51,688 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:51,925 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:52,400 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:52,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-15
+2023-05-26 22:03:52,737 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:54,074 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:54,139 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:54,489 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:54,891 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:55,258 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:56,715 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:57,136 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:57,176 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:57,729 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:58,160 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:58,500 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:03:59,898 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:00,190 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:00,284 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:00,308 INFO o.a.j.r.Summariser: summary +     77 in 00:00:59 =    1.3/s Avg: 10457 Min:   115 Max: 47676 Err:    35 (45.45%) Active: 11 Started: 11 Finished: 0
+2023-05-26 22:04:00,309 INFO o.a.j.r.Summariser: summary =    200 in 00:06:20 =    0.5/s Avg: 10885 Min:   115 Max: 47676 Err:    35 (17.50%)
+2023-05-26 22:04:00,933 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:00,968 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:01,550 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:01,926 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:02,498 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:02,600 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:03,469 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:04,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-14
+2023-05-26 22:04:04,664 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:05,794 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:07,138 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:07,803 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:10,541 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:12,248 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:13,325 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:14,499 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:16,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-13
+2023-05-26 22:04:17,111 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:19,259 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:23,365 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:26,677 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:28,005 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:28,517 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-12
+2023-05-26 22:04:29,856 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:30,211 INFO o.a.j.r.Summariser: summary +     38 in 00:00:30 =    1.3/s Avg:   914 Min:   115 Max: 27587 Err:    29 (76.32%) Active: 14 Started: 14 Finished: 0
+2023-05-26 22:04:30,212 INFO o.a.j.r.Summariser: summary =    238 in 00:06:50 =    0.6/s Avg:  9293 Min:   115 Max: 47676 Err:    64 (26.89%)
+2023-05-26 22:04:30,456 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:31,570 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:34,672 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:38,018 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:38,441 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:40,517 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-11
+2023-05-26 22:04:43,068 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:44,594 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:44,912 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:45,037 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:46,760 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:47,902 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:48,181 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:49,306 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:50,044 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:50,919 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:51,036 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:51,620 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:51,736 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:52,877 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:54,108 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:54,820 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:55,036 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:56,004 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:56,312 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:56,685 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:56,756 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:57,953 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:58,762 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:59,338 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:04:59,702 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:00,064 INFO o.a.j.r.Summariser: summary +     63 in 00:00:30 =    2.1/s Avg:  7509 Min:   113 Max: 53463 Err:    41 (65.08%) Active: 15 Started: 15 Finished: 0
+2023-05-26 22:05:00,065 INFO o.a.j.r.Summariser: summary =    301 in 00:07:20 =    0.7/s Avg:  8919 Min:   113 Max: 53463 Err:   105 (34.88%)
+2023-05-26 22:05:01,554 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:02,169 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:02,971 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:03,038 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:03,474 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:04,932 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:05,144 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:05,230 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:05,950 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:06,120 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:07,272 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:08,129 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:08,807 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:09,313 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:09,826 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:10,193 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:11,669 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:12,172 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:12,354 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:13,025 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:19,529 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:35,273 INFO o.a.j.r.Summariser: summary +     33 in 00:00:35 =    0.9/s Avg:  4909 Min:   115 Max: 50677 Err:    24 (72.73%) Active: 15 Started: 15 Finished: 0
+2023-05-26 22:05:35,273 INFO o.a.j.r.Summariser: summary =    334 in 00:07:55 =    0.7/s Avg:  8523 Min:   113 Max: 53463 Err:   129 (38.62%)
+2023-05-26 22:05:40,465 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:51,478 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:52,825 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:55,576 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:57,420 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:57,672 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:58,799 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:58,896 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:59,330 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:59,415 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:05:59,991 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:00,971 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:01,545 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:01,622 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:02,804 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:02,829 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:15,722 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:16,834 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:17,760 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:18,520 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:18,664 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:22,219 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:23,171 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:23,766 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:24,950 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:25,166 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:25,468 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:26,456 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:29,505 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:29,553 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:31,093 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:31,126 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:31,866 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:31,883 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:49,138 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:52,521 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-20
+2023-05-26 22:06:54,160 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:54,208 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:55,799 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:56,318 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:56,908 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:58,870 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:58,901 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:59,534 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:06:59,944 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:00,057 INFO o.a.j.r.Summariser: summary +     99 in 00:01:25 =    1.2/s Avg: 15426 Min:   226 Max: 60211 Err:     3 (3.03%) Active: 16 Started: 16 Finished: 0
+2023-05-26 22:07:00,058 INFO o.a.j.r.Summariser: summary =    433 in 00:09:20 =    0.8/s Avg: 10101 Min:   113 Max: 60211 Err:   132 (30.48%)
+2023-05-26 22:07:00,095 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:00,979 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:02,800 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:03,191 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:04,525 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-19
+2023-05-26 22:07:04,742 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:04,999 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:05,781 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:06,738 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:08,831 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:16,525 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-18
+2023-05-26 22:07:22,799 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:28,497 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:28,525 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-17
+2023-05-26 22:07:28,978 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:29,588 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:31,670 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:32,524 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:32,897 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:33,296 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:33,915 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:40,517 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-16
+2023-05-26 22:07:41,531 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:45,729 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:49,871 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:50,756 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:52,553 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:52,787 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:07:59,188 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:00,070 INFO o.a.j.r.Summariser: summary +     46 in 00:01:00 =    0.8/s Avg: 13406 Min:   229 Max: 60126 Err:     5 (10.87%) Active: 20 Started: 20 Finished: 0
+2023-05-26 22:08:00,071 INFO o.a.j.r.Summariser: summary =    479 in 00:10:20 =    0.8/s Avg: 10419 Min:   113 Max: 60211 Err:   137 (28.60%)
+2023-05-26 22:08:00,172 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:01,230 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:01,570 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:01,810 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:02,635 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:04,595 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:05,256 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:05,760 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:06,910 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:07,523 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:08:12,483 INFO o.a.j.p.h.s.HTTPHC4Impl: Content-Header is set already on the request! Will be replaced by a Multipart-Header. Old headers: [Content-Type: image/jpg]
+2023-05-26 22:14:42,561 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-23
+2023-05-26 22:14:42,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-22
+2023-05-26 22:14:42,561 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-24
+2023-05-26 22:14:42,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-21
+2023-05-26 22:14:42,562 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-25
+2023-05-26 22:14:43,182 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-22
+2023-05-26 22:14:43,182 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-22
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-25
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-25
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-24
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-23
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-24
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-23
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-21
+2023-05-26 22:14:43,185 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-21
+2023-05-26 22:24:56,198 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2023-05-26 22:24:56,201 INFO o.a.j.r.ResultCollector: Shutdown hook ended
