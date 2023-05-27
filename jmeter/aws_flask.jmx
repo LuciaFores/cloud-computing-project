@@ -32,7 +32,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="BASE_URL_1" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_1</stringProp>
-            <stringProp name="Argument.value">Flask2Autoscaling-1-597435293.us-east-1.elb.amazonaws.com</stringProp>
+            <stringProp name="Argument.value">image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -213,7 +213,7 @@
 import org.apache.commons.io.FileUtils
 
 // Set the directory path where the image files are stored
-String directoryPath = &quot;/Users/jngelena/Desktop/cloud-computing-project/test_images&quot;
+String directoryPath = &quot;/home/lucia/Documenti/GitHub/cloud-computing-project/test_images&quot;
 
 // Get all the files in the directory
 List&lt;File&gt; files = FileUtils.listFiles(new File(directoryPath), null, false).toList()
