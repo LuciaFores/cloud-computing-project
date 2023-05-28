@@ -1,0 +1,83 @@
+[
+    {
+        "Timestamp": "2023-05-26T18:35:00+00:00",
+        "Average": 50.90209471766847,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:36:00+00:00",
+        "Average": 54.26365348399247,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:28:00+00:00",
+        "Average": 49.8305084745763,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:37:00+00:00",
+        "Average": 57.345355191256814,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:38:00+00:00",
+        "Average": 52.1551912568306,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:29:00+00:00",
+        "Average": 57.9166666666666,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:30:00+00:00",
+        "Average": 59.9180327868853,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:39:00+00:00",
+        "Average": 40.60254237288136,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:31:00+00:00",
+        "Average": 63.75,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:40:00+00:00",
+        "Average": 44.19084930999355,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:32:00+00:00",
+        "Average": 58.9830508474576,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:41:00+00:00",
+        "Average": 39.635959062702575,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:33:00+00:00",
+        "Average": 56.8852459016393,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:42:00+00:00",
+        "Average": 12.570903954802295,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:43:00+00:00",
+        "Average": 0.207685005093996,
+        "Unit": "Percent"
+    },
+    {
+        "Timestamp": "2023-05-26T18:34:00+00:00",
+        "Average": 60.0629804575345,
+        "Unit": "Percent"
+    }
+]
+

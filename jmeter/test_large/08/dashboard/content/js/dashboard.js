@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 50.113207547169814, "KoPercent": 49.886792452830186};
+    var data = {"OkPercent": 78.86100386100387, "KoPercent": 21.138996138996138};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.256140350877193, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.007462686567164179, 500, 1500, "Test"], "isController": true}, {"data": [0.0, 500, 1500, "HTTP Request POST"], "isController": false}, {"data": [0.7540983606557377, 500, 1500, "HTTP Request GET"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.2753856041131105, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.007692307692307693, 500, 1500, "Test"], "isController": true}, {"data": [0.0, 500, 1500, "HTTP Request POST"], "isController": false}, {"data": [0.8163461538461538, 500, 1500, "HTTP Request GET"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1325, 661, 49.886792452830186, 6990.1230188679165, 113, 60330, 259.0, 27024.800000000007, 52679.50000000017, 60213.18, 1.518269653857436, 2.0647516135912065, 6.285300664658349], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Test", 670, 531, 79.25373134328358, 13823.340298507463, 225, 61012, 3612.5, 50242.89999999999, 60382.9, 60530.93, 0.7709115511315716, 2.070865199355426, 6.310894461633343], "isController": true}, {"data": ["HTTP Request POST", 654, 497, 75.99388379204893, 13898.094801223244, 113, 60330, 3678.5, 54060.0, 60125.0, 60234.7, 0.7510205956489036, 0.7065803658067442, 5.9889119675246745], "isController": false}, {"data": ["HTTP Request GET", 671, 164, 24.44113263785395, 257.1669150521612, 223, 890, 241.0, 305.0, 336.4, 455.59999999999945, 0.7832124081388726, 1.385055946505192, 0.31512061733712454], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1036, 219, 21.138996138996138, 9431.582046332049, 113, 60142, 259.0, 30970.900000000027, 42034.299999999996, 54224.82, 1.2012778070882348, 2.2040611882765258, 5.245501096484872], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Test", 520, 172, 33.07692307692308, 18790.615384615394, 239, 60378, 18107.5, 42189.70000000002, 46427.85, 57031.88999999997, 0.6046356953659325, 2.2101939597911446, 5.260096634882596], "isController": true}, {"data": ["HTTP Request POST", 516, 126, 24.41860465116279, 18669.174418604653, 113, 60142, 18013.5, 42079.600000000006, 46191.349999999984, 56828.97999999999, 0.6027854294145272, 1.0880001837707032, 5.040244195999888], "isController": false}, {"data": ["HTTP Request GET", 520, 93, 17.884615384615383, 265.048076923077, 223, 1637, 239.0, 291.0, 335.95, 797.1599999999962, 0.6064684525607547, 1.1306659424519754, 0.24400879145999116], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["502/Bad Gateway", 341, 51.58850226928896, 25.735849056603772], "isController": false}, {"data": ["504/Gateway Time-out", 53, 8.018154311649017, 4.0], "isController": false}, {"data": ["500/INTERNAL SERVER ERROR", 267, 40.39334341906203, 20.150943396226417], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["502/Bad Gateway", 218, 99.54337899543378, 21.042471042471043], "isController": false}, {"data": ["504/Gateway Time-out", 1, 0.45662100456621, 0.09652509652509653], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1325, 661, "502/Bad Gateway", 341, "500/INTERNAL SERVER ERROR", 267, "504/Gateway Time-out", 53, "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["HTTP Request POST", 654, 497, "500/INTERNAL SERVER ERROR", 267, "502/Bad Gateway", 177, "504/Gateway Time-out", 53, "", "", "", ""], "isController": false}, {"data": ["HTTP Request GET", 671, 164, "502/Bad Gateway", 164, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1036, 219, "502/Bad Gateway", 218, "504/Gateway Time-out", 1, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["HTTP Request POST", 516, 126, "502/Bad Gateway", 125, "504/Gateway Time-out", 1, "", "", "", "", "", ""], "isController": false}, {"data": ["HTTP Request GET", 520, 93, "502/Bad Gateway", 93, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

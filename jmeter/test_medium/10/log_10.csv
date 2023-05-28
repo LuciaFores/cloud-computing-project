@@ -1,0 +1,941 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1685284376761,397,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,1,1,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,381,0,158
+1685284381738,7163,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6151,2,2,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,7163,0,0
+1685284376683,7560,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,6568,2,2,null,7544,4661,158
+1685284388685,420,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,2,2,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,420,0,214
+1685284388915,395,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,2,2,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,395,0,190
+1685284390349,5106,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16132,2,2,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,5106,0,0
+1685284388680,5526,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16549,2,2,null,5526,1251,214
+1685284395459,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,2,2,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284400684,307,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,3,3,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,307,0,197
+1685284393940,8475,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5144,3,3,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,8475,0,0
+1685284388904,8870,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5561,3,3,null,8870,4643,190
+1685284396985,5638,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5164,3,3,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,5638,0,0
+1685284395459,6044,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5581,3,3,null,6044,1123,201
+1685284402418,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,3,3,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284402626,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,3,3,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,200
+1685284412683,282,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,281,0,107
+1685284404244,11588,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,16148,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,11588,0,0
+1685284400680,11895,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,16565,4,4,null,11895,3259,197
+1685284404962,11077,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16120,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,11077,0,0
+1685284402418,11486,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16537,4,4,null,11485,2136,203
+1685284415836,240,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,240,0,107
+1685284416042,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,198
+1685284409964,10783,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5123,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10783,0,0
+1685284402625,11189,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5540,4,4,null,11188,6933,200
+1685284420747,410,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,410,0,204
+1685284424682,366,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,365,0,159
+1685284414247,15615,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16156,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,15614,0,0
+1685284412680,15897,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16573,5,5,null,15895,1286,107
+1685284416762,13303,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6143,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,13303,0,0
+1685284415835,13543,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6560,5,5,null,13543,689,107
+1685284429865,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,200
+1685284419126,11247,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,8927,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,11247,0,0
+1685284416041,11651,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,9344,5,5,null,11651,2682,198
+1685284430070,311,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,311,0,200
+1685284430377,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284427623,10942,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5172,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10942,0,0
+1685284420747,11352,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5589,5,5,null,11352,6468,204
+1685284438570,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284431154,17446,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8895,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,17446,0,0
+1685284424680,17812,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,9312,5,5,null,17811,6109,159
+1685284448603,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,200
+1685284433376,19115,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6147,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19115,0,0
+1685284430069,19426,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6564,5,5,null,19426,2998,200
+1685284452494,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,200
+1685284439680,16600,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5136,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16600,0,0
+1685284436091,20189,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,8911,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,20189,0,0
+1685284436172,20108,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5160,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,20108,0,0
+1685284429864,20595,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,9328,5,5,null,20595,5823,200
+1685284438569,17004,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5553,5,5,null,17004,709,199
+1685284430376,20514,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5577,5,5,null,20514,5392,201
+1685284456285,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284456284,405,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,200
+1685284456285,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284454544,10646,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6151,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10645,0,0
+1685284448602,11052,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6568,5,5,null,11051,5538,200
+1685284465195,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,198
+1685284457690,18557,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16144,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,18557,0,0
+1685284456283,18962,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16561,5,5,null,18962,1003,200
+1685284476248,222,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,222,0,106
+1685284458263,19931,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5172,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19930,0,0
+1685284452493,20337,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5589,5,5,null,20336,5364,200
+1685284478196,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,200
+1685284460561,21729,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16128,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,21729,0,0
+1685284461801,20489,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5176,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,20489,0,0
+1685284456283,22133,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16545,5,5,null,22133,3876,199
+1685284456283,20893,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5593,5,5,null,20893,5116,199
+1685284482293,303,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,302,0,105
+1685284482293,303,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,302,0,105
+1685284467393,18992,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,16144,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,18992,0,0
+1685284465193,19396,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,16561,5,5,null,19396,1798,198
+1685284486388,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284477960,8936,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16148,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,8936,0,0
+1685284476247,9158,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16565,5,5,null,9158,1492,106
+1685284486898,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,203
+1685284483030,17794,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,6147,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,17794,0,0
+1685284482291,18097,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,6564,5,5,null,18096,441,105
+1685284500830,506,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,506,0,299
+1685284484309,19278,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,8895,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19278,0,0
+1685284478195,19684,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,9312,5,5,null,19684,5708,200
+1685284503588,328,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,328,0,202
+1685284490072,15769,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6151,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,15769,0,0
+1685284489166,16675,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,8899,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16675,0,0
+1685284486387,16176,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6568,5,5,null,16176,3281,201
+1685284482291,16978,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,9316,5,5,null,16977,6574,105
+1685284505845,303,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,303,0,106
+1685284505845,303,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,303,0,105
+1685284492196,14053,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5095,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,14053,0,0
+1685284486898,14462,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5512,5,5,null,14462,4891,203
+1685284506252,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284506275,9805,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6155,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,9805,0,0
+1685284503588,10133,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6572,5,5,null,10133,2359,202
+1685284516082,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284508367,15291,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,6135,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,15291,0,0
+1685284500829,15797,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,6552,5,5,null,15797,7033,299
+1685284523662,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,200
+1685284509536,19242,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16124,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19241,0,0
+1685284505844,19545,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16541,5,5,null,19544,3390,106
+1685284528779,304,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,304,0,106
+1685284512391,19868,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5156,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19868,0,0
+1685284506251,20276,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5573,5,5,null,20276,5735,202
+1685284510861,21500,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8919,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,21500,0,0
+1685284505844,21803,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,9336,5,5,null,21803,4715,105
+1685284521575,10991,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6151,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10991,0,0
+1685284532263,302,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,301,0,111
+1685284516081,11399,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6568,5,5,null,11399,5087,202
+1685284532363,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284532568,405,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,202
+1685284530236,12057,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16152,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,12057,0,0
+1685284528778,12361,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16569,5,5,null,12361,1155,106
+1685284530025,12473,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8927,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,12473,0,0
+1685284523660,12879,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,9344,5,5,null,12878,5961,200
+1685284542297,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284542502,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284556681,262,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,262,0,151
+1685284537813,19985,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,6143,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19985,0,0
+1685284532362,20393,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,6560,6,6,null,20392,5044,201
+1685284557801,363,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,363,0,158
+1685284537982,23358,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5172,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,23358,0,0
+1685284532262,23660,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5589,6,6,null,23659,5421,111
+1685284561344,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284539857,23710,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5160,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,23709,0,0
+1685284532567,24115,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5577,6,6,null,24114,6885,202
+1685284544123,19674,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16120,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19674,0,0
+1685284542296,20080,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16537,6,6,null,20080,1422,201
+1685284544564,19249,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,6163,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,19249,0,0
+1685284542501,19655,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,6580,6,6,null,19655,1658,201
+1685284563569,433,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,433,0,230
+1685284563798,324,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,324,0,203
+1685284563813,393,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,393,0,188
+1685284568682,264,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,7,7,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,264,0,131
+1685284580683,418,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,418,0,212
+1685284561126,22331,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,16152,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,22331,0,0
+1685284557799,22694,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,16569,8,8,null,22694,2965,158
+1685284562107,21452,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5144,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,21452,0,0
+1685284556678,21714,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5561,8,8,null,21714,5168,151
+1685284583459,305,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,305,0,106
+1685284583561,388,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,388,0,202
+1685284568002,23648,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,5099,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,23648,0,0
+1685284563797,23972,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,5516,8,8,null,23972,3883,203
+1685284565708,26147,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16128,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,26146,0,0
+1685284561343,26551,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16545,8,8,null,26550,3960,199
+1685284591655,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284591857,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284592682,378,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,9,9,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,378,0,195
+1685284568736,27214,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16148,9,9,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,27214,0,0
+1685284563813,27607,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16565,9,9,null,27607,4530,188
+1685284595953,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,9,9,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284569768,29970,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,8911,9,9,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,29970,0,0
+1685284563568,30403,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,9328,9,9,null,30403,5767,230
+1685284599739,512,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,9,9,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,512,0,204
+1685284604682,381,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,381,0,175
+1685284573432,34294,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5152,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,34294,0,0
+1685284568680,34558,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5569,10,10,null,34558,4489,131
+1685284607728,338,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,338,0,201
+1685284585571,32290,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,16144,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,32290,0,0
+1685284583458,32595,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,16561,10,10,null,32595,1809,106
+1685284617864,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284586859,33256,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,5103,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,33256,0,0
+1685284583560,33644,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,5520,10,10,null,33644,2915,202
+1685284586429,33728,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,6143,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,33726,0,0
+1685284580680,34146,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,6560,10,10,null,34144,5332,212
+1685284620160,365,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,365,0,160
+1685284620121,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284593057,40370,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16128,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,40370,0,0
+1685284591856,40777,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,16545,10,10,null,40777,795,201
+1685284633429,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284639112,152,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,16144,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,151,0,0
+1685284633428,560,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2856,16561,10,10,null,559,5278,203
+1685284639267,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284597157,42926,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,16136,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,42926,0,0
+1685284592680,43304,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,16553,10,10,null,43304,4100,195
+1685284640084,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284643138,109,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,16128,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284640083,517,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,16545,10,10,null,516,2647,203
+1685284643249,212,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,212,0,106
+1685284599070,44472,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,44472,0,0
+1685284591654,44876,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,16573,10,10,null,44876,7013,199
+1685284599356,44240,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8907,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,44240,0,0
+1685284595952,44647,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,9324,10,10,null,44646,2997,201
+1685284643567,109,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,16132,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,109,0,0
+1685284639266,515,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2856,16549,10,10,null,515,3896,201
+1685284643544,226,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,226,0,106
+1685284643596,232,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,232,0,107
+1685284643678,218,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,218,0,106
+1685284644552,109,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,5140,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284643676,327,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2856,5557,10,10,null,326,658,106
+1685284644663,213,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,212,0,105
+1685284601043,43973,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,6147,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,43973,0,0
+1685284599739,44485,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,6564,10,10,null,44485,793,204
+1685284645018,214,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,214,0,107
+1685284646207,122,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,6171,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,122,0,0
+1685284643543,348,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2856,6588,10,10,null,348,2438,106
+1685284646233,106,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,6155,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,106,0,0
+1685284643596,338,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2856,6572,10,10,null,338,2406,107
+1685284608046,38488,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,16120,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,38488,0,0
+1685284604680,38869,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,16537,10,10,null,38869,2987,175
+1685284646341,397,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,397,0,193
+1685284646331,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284646537,346,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,346,0,200
+1685284646879,166,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,5156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,166,0,0
+1685284645016,380,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-3,,false,,1358,5573,10,10,null,380,1650,107
+1685284615105,32145,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,6135,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,32145,0,0
+1685284607727,32483,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,6552,10,10,null,32483,7041,201
+1685284647047,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284647252,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284626723,21143,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,8899,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,21143,0,0
+1685284620145,27721,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5168,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,27721,0,0
+1685284620120,21547,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,9316,10,10,null,21547,6199,199
+1685284617863,28129,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-1,,true,,4403,5585,10,10,null,28129,1873,202
+1685284624147,23726,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,5136,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,23724,0,0
+1685284620160,24091,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,5553,10,10,null,24089,3623,160
+1685284647866,215,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,215,0,106
+1685284647866,220,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,219,0,106
+1685284647873,215,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,215,0,105
+1685284648934,108,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,5152,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284647866,323,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-10,,false,,1358,5569,10,10,null,323,853,106
+1685284649044,211,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,211,0,105
+1685284649667,109,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,8915,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284647046,517,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-3,,false,,1358,9332,10,10,null,516,2213,203
+1685284649779,213,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,213,0,106
+1685284650181,142,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5140,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,142,0,0
+1685284647873,357,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,5557,10,10,null,357,2095,105
+1685284650226,108,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,8903,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284647251,516,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,9320,10,10,null,516,2567,202
+1685284650336,397,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,397,0,192
+1685284650327,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,201
+1685284652065,203,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,5168,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,203,0,0
+1685284646536,549,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2856,5585,10,10,null,549,5182,200
+1685284652269,409,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,204
+1685284652967,121,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,8887,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,121,0,0
+1685284647866,341,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2856,9304,10,10,null,340,4881,106
+1685284653090,305,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,305,0,107
+1685284653832,108,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,16136,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284649043,319,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-10,,false,,1358,16553,10,10,null,319,4578,105
+1685284653942,376,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,376,0,169
+1685284656155,209,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5164,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,209,0,0
+1685284650326,615,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,5581,10,10,null,615,5424,201
+1685284656366,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284658915,215,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,5131,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,214,0,0
+1685284653941,591,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2856,5548,10,10,null,590,4598,169
+1685284659132,409,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,201
+1685284660201,156,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,8899,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,156,0,0
+1685284656365,564,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,9316,10,10,null,564,3429,203
+1685284660359,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284645473,16011,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,8919,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16011,0,0
+1685284644662,16224,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2905,9336,10,10,null,16223,599,105
+1685284661487,235,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,235,0,126
+1685284665604,179,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,16152,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,179,0,0
+1685284659130,588,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-10,,false,,1358,16569,10,10,null,587,6066,201
+1685284665784,307,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,307,0,183
+1685284647884,21075,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,16140,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,21075,0,0
+1685284648128,20831,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6163,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,20831,0,0
+1685284646330,21238,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-5,,true,,4403,6580,10,10,null,21238,1392,202
+1685284643247,21287,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2905,16557,10,10,null,21287,4426,106
+1685284668961,406,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,202
+1685284668961,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,202
+1685284670138,153,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,16136,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,153,0,0
+1685284668960,559,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,16553,10,10,null,559,773,202
+1685284670293,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,201
+1685284671452,151,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,5160,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,150,0,0
+1685284671452,151,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,16156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,150,0,0
+1685284665784,458,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-10,,false,,1358,5577,10,10,null,457,5361,183
+1685284668960,557,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2856,16573,10,10,null,556,2086,202
+1685284671604,250,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,250,0,118
+1685284671604,250,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,250,0,118
+1685284677355,205,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,16116,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,205,0,0
+1685284671603,455,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-5,,false,,1358,16533,10,10,null,455,5502,118
+1685284677563,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284651367,32132,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,8919,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,32132,0,0
+1685284650335,32529,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2905,9336,10,10,null,32529,639,192
+1685284683503,406,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,199
+1685284650381,35679,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5136,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,35679,0,0
+1685284646340,36076,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2905,5553,10,10,null,36076,3644,193
+1685284686062,388,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,388,0,204
+1685284688753,175,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,6171,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,175,0,0
+1685284683502,581,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,6588,10,10,null,581,4845,199
+1685284688930,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,202
+1685284657183,36454,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,36454,0,0
+1685284655460,38177,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,38177,0,0
+1685284652269,36863,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2905,5573,10,10,null,36863,4507,204
+1685284653089,38482,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2905,5573,10,10,null,38482,2068,107
+1685284693640,308,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,307,0,105
+1685284693640,308,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,308,0,105
+1685284693780,168,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5160,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,167,0,0
+1685284688929,574,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,5577,10,10,null,573,4445,202
+1685284693950,404,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,403,0,198
+1685284697066,156,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,16152,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,156,0,0
+1685284693949,560,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,16569,10,10,null,559,2714,198
+1685284697224,509,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,509,0,303
+1685284653978,49184,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5152,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,49183,0,0
+1685284649777,49397,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2905,5569,10,10,null,49396,3989,106
+1685284703163,236,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,236,0,107
+1685284703437,113,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,8927,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,113,0,0
+1685284697223,622,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,9344,10,10,null,622,5705,303
+1685284703552,324,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,324,0,119
+1685284707856,117,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,6131,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,117,0,0
+1685284703551,441,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,6548,10,10,null,441,3981,119
+1685284707896,179,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,8903,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,179,0,0
+1685284703162,415,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2856,9320,10,10,null,415,4498,107
+1685284707975,306,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,306,0,107
+1685284708078,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284666167,44365,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,5176,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,44365,0,0
+1685284660358,44773,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2905,5593,10,10,null,44773,5406,202
+1685284710538,388,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,388,0,199
+1685284666164,44984,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,44984,0,0
+1685284661486,45219,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2905,5573,10,10,null,45219,4444,126
+1685284674778,36579,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,8891,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,36579,0,0
+1685284671603,36829,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2905,9308,10,10,null,36829,2925,118
+1685284711151,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,200
+1685284711358,404,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-10,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284684217,28160,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,6163,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,28160,0,0
+1685284677562,28567,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2905,6580,10,10,null,28567,6250,201
+1685284674991,37404,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,8895,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,37404,0,0
+1685284670292,37813,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,9312,10,10,null,37813,4290,201
+1685284712379,312,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,312,0,201
+1685284712396,299,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,299,0,184
+1685284712946,146,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-3,text,false,,679,16156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,146,0,0
+1685284708077,553,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2856,16573,10,10,null,553,4464,202
+1685284713094,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284714240,183,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,6139,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,183,0,0
+1685284712395,482,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2856,6556,10,10,null,482,1547,184
+1685284714316,109,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,16156,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284707974,415,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,16573,10,10,null,414,6037,107
+1685284714425,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284714426,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284688823,26276,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8915,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,26276,0,0
+1685284686062,26664,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2905,9332,10,10,null,26664,2374,204
+1685284715108,111,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,6131,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,110,0,0
+1685284710537,499,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,6548,10,10,null,498,4183,199
+1685284715101,214,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,214,0,107
+1685284715220,213,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,213,0,105
+1685284698872,16948,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5144,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16948,0,0
+1685284693639,17256,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2905,5561,10,10,null,17256,4927,105
+1685284698343,17482,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,5140,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,17481,0,0
+1685284693639,17790,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2905,5557,10,10,null,17788,4398,105
+1685284715822,217,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,217,0,107
+1685284715827,219,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,219,0,108
+1685284716401,108,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,8891,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284715100,322,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-4,,false,,1358,9308,10,10,null,322,1087,107
+1685284716465,108,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,6159,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,108,0,0
+1685284715219,321,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,6576,10,10,null,321,1034,105
+1685284716511,212,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,212,0,105
+1685284716576,237,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,237,0,106
+1685284718091,110,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,16144,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,110,0,0
+1685284714425,517,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,16561,10,10,null,517,3260,201
+1685284718204,212,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,212,0,105
+1685284719265,176,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,5119,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,176,0,0
+1685284712378,488,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2856,5536,10,10,null,488,6575,201
+1685284719567,109,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,5176,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,109,0,0
+1685284715821,326,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,5593,10,10,null,326,3529,107
+1685284719443,235,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-5,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,235,0,128
+1685284719678,377,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,377,0,172
+1685284720212,151,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,5111,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,151,0,0
+1685284720147,216,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,8911,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,216,0,0
+1685284715826,370,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2856,5528,10,10,null,370,4167,108
+1685284716575,453,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,9328,10,10,null,453,3336,106
+1685284720366,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284720366,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-1,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284721828,174,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,16128,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,174,0,0
+1685284719677,551,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2856,16545,10,10,null,551,1774,172
+1685284722005,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284723455,185,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,8923,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,185,0,0
+1685284718202,397,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,9340,10,10,null,397,5041,105
+1685284723642,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284724183,174,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,16120,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,174,0,0
+1685284720365,581,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,16537,10,10,null,581,3411,202
+1685284724359,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,205
+1685284727754,190,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,8887,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,189,0,0
+1685284724358,598,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,9304,10,10,null,597,2989,205
+1685284727947,386,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,386,0,197
+1685284728326,128,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5152,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,128,0,0
+1685284723641,536,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2856,5569,10,10,null,536,4279,202
+1685284728456,383,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,383,0,202
+1685284728832,135,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,16148,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,135,0,0
+1685284722003,542,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-6,,false,,1358,16565,10,10,null,542,6424,201
+1685284728970,405,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-6,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,201
+1685284729375,205,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5160,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,205,0,0
+1685284727945,591,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,5577,10,10,null,591,1044,197
+1685284729582,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,200
+1685284715915,16019,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,8923,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16019,0,0
+1685284711357,16423,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2905,9340,10,10,null,16423,4155,199
+1685284731936,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284732827,133,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,6151,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,133,0,0
+1685284728455,516,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,6568,10,10,null,516,3989,202
+1685284732962,311,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,310,0,201
+1685284733852,129,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,6171,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,129,0,0
+1685284729581,536,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,6588,10,10,null,536,3864,200
+1685284733983,409,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284735282,134,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,5176,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,134,0,0
+1685284733982,543,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,5593,10,10,null,542,890,203
+1685284735418,409,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,417,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284736684,370,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-15,text,false,,679,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,370,0,165
+1685284739414,200,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,5152,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,199,0,0
+1685284732961,511,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-9,,false,,1358,5569,11,11,null,509,6141,201
+1685284739640,178,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,16120,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,178,0,0
+1685284735417,587,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-8,,false,,1358,16537,11,11,null,586,3815,202
+1685284739616,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-9,text,false,,679,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284739821,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284717531,23721,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,8919,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,23720,0,0
+1685284714424,24129,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2905,9336,11,11,null,24128,2699,203
+1685284741255,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,203
+1685284716335,25838,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5135,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,25838,0,0
+1685284711149,26245,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2905,5552,11,11,null,26244,4780,200
+1685284742176,408,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-2,text,false,,679,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284743258,146,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-8,text,false,,679,8911,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,146,0,0
+1685284739819,554,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2856,9328,11,11,null,553,3031,202
+1685284743406,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284745542,215,HTTP Request POST,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-7,text,false,,679,5123,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,215,0,0
+1685284741254,622,Test,,"Number of samples in transaction : 2, number of failing samples : 2",jp@gc - Ultimate Thread Group 1-7,,false,,1358,5540,11,11,null,622,3883,203
+1685284745759,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284718983,27388,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5107,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,27388,0,0
+1685284716510,27600,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2905,5524,11,11,null,27600,2262,105
+1685284746374,407,HTTP Request GET,502,Bad Gateway,jp@gc - Ultimate Thread Group 1-4,text,false,,679,417,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685284748682,352,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,12,12,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,352,0,147
+1685284719506,35672,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2226,5136,12,12,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,35672,0,0
+1685284713093,36079,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-3,,true,,4403,5553,12,12,null,36079,6007,202
+1685284755181,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,12,12,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,202
+1685284725043,30851,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2226,16148,12,12,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,30851,0,0
+1685284719442,31086,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2905,16565,12,12,null,31086,5367,128
+1685284755897,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,12,12,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284760687,430,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,430,0,224
+1685284747016,14510,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,16140,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,14510,0,0
+1685284745348,16178,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,8927,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16178,0,0
+1685284742175,14918,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2905,16557,13,13,null,14918,4435,203
+1685284743405,16585,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,9344,13,13,null,16585,1538,201
+1685284747846,13783,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,8927,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,13782,0,0
+1685284745758,14191,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,9344,13,13,null,14189,1680,201
+1685284761528,306,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,306,0,107
+1685284761529,305,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,305,0,106
+1685284761631,312,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,312,0,202
+1685284727625,36769,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2226,8923,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,36768,0,0
+1685284730600,33794,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5095,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,33793,0,0
+1685284720365,37176,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2905,9340,13,13,null,37175,6855,202
+1685284728968,34199,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2905,5512,13,13,null,34198,1228,201
+1685284764396,215,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,215,0,106
+1685284764396,216,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,216,0,107
+1685284739411,26417,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2226,8907,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,26417,0,0
+1685284731935,26825,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,4403,9324,13,13,null,26824,7068,201
+1685284743602,22328,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,5168,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,22328,0,0
+1685284745618,20311,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5123,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,20311,0,0
+1685284749106,16823,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8887,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16823,0,0
+1685284739614,20719,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2905,5540,13,13,null,20718,5599,202
+1685284736681,22698,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2905,5585,13,13,null,22698,6553,165
+1685284746373,17230,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2905,9304,13,13,null,17230,2328,201
+1685284765830,305,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,305,0,106
+1685284765933,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284765933,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284765933,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685284772683,415,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,415,0,210
+1685284764586,9228,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5131,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,9228,0,0
+1685284761527,9534,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5548,14,14,null,9534,2754,107
+1685284767096,6924,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5172,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,6924,0,0
+1685284765932,7331,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5589,14,14,null,7331,758,202
+1685284773817,218,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,218,0,106
+1685284774022,1533,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,1469,0,202
+1685284768275,14346,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2226,5152,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,14346,0,0
+1685284761630,14658,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-7,,true,,4403,5569,14,14,null,14658,6333,202
+1685284782623,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284784684,401,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,395,0,190
+1685284769679,16425,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,16156,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16425,0,0
+1685284765932,16832,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,16573,15,15,null,16832,3342,202
+1685284769369,16839,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2226,5123,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,16839,0,0
+1685284764395,17054,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-6,,true,,4403,5540,15,15,null,17054,4759,106
+1685284777132,9085,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,5107,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,9085,0,0
+1685284772680,9500,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-12,,true,,4403,5524,15,15,null,9500,4038,210
+1685284786106,224,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,224,0,107
+1685284786218,293,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,293,0,104
+1685284786210,301,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,301,0,106
+1685284778587,9154,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,8923,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,9154,0,0
+1685284774021,10687,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,9340,15,15,null,10623,3035,202
+1685284780228,7681,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,6155,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,7680,0,0
+1685284773816,7899,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,6572,15,15,null,7898,6194,106
+1685284787744,304,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,304,0,143
+1685284787911,353,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,351,0,136
+1685284792407,8749,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2226,5107,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,8749,0,0
+1685284791486,9670,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2226,6131,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,9670,0,0
+1685284784681,10071,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-11,,true,,4403,6548,15,15,null,10065,6405,190
+1685284787910,9102,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-2,,true,,4403,5524,15,15,null,9100,4146,136
+1685284801158,405,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,201
+1685284801159,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,200
+1685284753851,60206,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,8927,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60206,0,0
+1685284748680,60558,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,9344,15,15,null,60558,4819,147
+1685284814058,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284759068,60416,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,16120,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60416,0,0
+1685284755896,60824,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,16537,15,15,null,60824,2764,203
+1685284759475,60214,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,5168,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60214,0,0
+1685284755180,60621,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,5585,15,15,null,60620,3889,202
+1685284819485,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284819690,387,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,387,0,203
+1685284765496,60132,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,5123,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60132,0,0
+1685284764395,60348,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,5540,15,15,null,60348,884,107
+1685284825628,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,204
+1685284766863,60198,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,8907,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60198,0,0
+1685284765932,60605,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,9324,15,15,null,60605,525,202
+1685284767132,60339,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,16124,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60339,0,0
+1685284765829,60644,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,16541,15,15,null,60644,998,106
+1685284827061,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,204
+1685284827471,306,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,306,0,113
+1685284767655,60328,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,16116,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60328,0,0
+1685284760684,60758,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,16533,15,15,null,60758,6540,224
+1685284827983,307,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,306,0,105
+1685284768257,60216,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,16136,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60216,0,0
+1685284761528,60521,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,16553,15,15,null,60521,6423,106
+1685284828473,328,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,328,0,123
+1685284832881,5136,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2226,5131,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,5136,0,0
+1685284828472,5464,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-8,,true,,4403,5548,15,15,null,5464,4082,123
+1685284838018,512,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,512,0,306
+1685284787455,60188,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-7,text,false,,694,5144,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60188,0,0
+1685284782622,60596,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2871,5561,15,15,null,60596,4426,203
+1685284847646,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284788407,60362,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,16140,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60362,0,0
+1685284786105,60586,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,16557,15,15,null,60586,2079,107
+1685284848772,818,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,818,0,203
+1685284789834,60119,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,8907,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60119,0,0
+1685284786209,60420,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,9324,15,15,null,60420,3323,106
+1685284790118,60168,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,5107,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60168,0,0
+1685284786217,60461,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,5524,15,15,null,60461,3608,104
+1685284849955,331,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,331,0,146
+1685284850288,326,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,326,0,121
+1685284791602,60138,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-9,text,false,,694,5111,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60138,0,0
+1685284787743,60442,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2871,5528,15,15,null,60442,3554,143
+1685284851740,316,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,309,0,153
+1685284851650,6745,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5160,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,6745,0,0
+1685284848771,7563,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5577,15,15,null,7563,2062,203
+1685284858395,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,204
+1685284802163,60124,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,5119,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60124,0,0
+1685284801159,60528,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,5536,15,15,null,60528,603,200
+1685284862291,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,199
+1685284803488,60129,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,5119,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60129,0,0
+1685284801157,60534,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,5536,15,15,null,60534,1927,201
+1685284863619,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,397,0,203
+1685284855171,10266,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,5095,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10266,0,0
+1685284856804,8633,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,5123,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,8633,0,0
+1685284850287,10592,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-12,,true,,4403,5512,15,15,null,10592,4560,121
+1685284851740,8949,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,5540,15,15,null,8942,4750,153
+1685284865439,329,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,329,0,124
+1685284865439,329,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,329,0,124
+1685284865431,12933,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5099,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,12933,0,0
+1685284858395,13342,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5516,15,15,null,13342,6628,204
+1685284878367,514,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,514,0,201
+1685284868999,10085,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2226,16136,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10085,0,0
+1685284867382,11702,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,6131,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,11702,0,0
+1685284865438,10414,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-12,,true,,4403,16553,15,15,null,10414,3233,124
+1685284865438,12031,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,6548,15,15,null,12031,1616,124
+1685284879087,413,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,413,0,200
+1685284879087,419,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,414,0,200
+1685284820197,60318,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,8911,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60318,0,0
+1685284814057,60726,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,9328,15,15,null,60726,5732,203
+1685284880516,310,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,310,0,107
+1685284821264,60173,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,8915,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60173,0,0
+1685284819689,60560,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,9332,15,15,null,60560,1187,203
+1685284881437,439,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,433,0,204
+1685284822008,60144,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,5136,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60144,0,0
+1685284819484,60553,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,5553,15,15,null,60552,2115,203
+1685284882154,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,204
+1685284830186,60158,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,8915,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60158,0,0
+1685284827470,60464,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,9332,15,15,null,60464,2415,113
+1685284890349,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,200
+1685284832094,60196,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,6139,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60196,0,0
+1685284825627,60605,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,6556,15,15,null,60605,6058,204
+1685284892292,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,202
+1685284833631,60334,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,16156,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60334,0,0
+1685284827982,60641,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,16573,15,15,null,60640,5342,105
+1685284893966,333,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,333,0,165
+1685284834430,60215,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,6139,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60215,0,0
+1685284827061,60624,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,6556,15,15,null,60624,6961,204
+1685284894647,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,201
+1685284883560,15180,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,5135,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,15180,0,0
+1685284883085,15655,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2226,16140,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,15655,0,0
+1685284878366,15694,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,5552,15,15,null,15694,4682,201
+1685284879086,16074,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-9,,true,,4403,16557,15,15,null,16069,3582,200
+1685284883131,15713,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2226,16128,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,15713,0,0
+1685284880515,16023,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-14,,true,,4403,16545,15,15,null,16023,2307,107
+1685284898846,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,201
+1685284898743,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,511,0,106
+1685284898743,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,511,0,106
+1685284839551,60213,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,6167,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60213,0,0
+1685284838018,60725,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,6584,15,15,null,60725,1022,306
+1685284899767,307,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,307,0,185
+1685284895752,10463,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2226,5168,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10463,0,0
+1685284894646,10871,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-15,,true,,4403,5585,15,15,null,10871,699,201
+1685284900008,6413,HTTP Request POST,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2226,8923,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,6413,0,0
+1685284898742,6924,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-4,,true,,4403,9340,15,15,null,6924,755,106
+1685284906423,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,104
+1685284906218,613,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,612,0,202
+1685284848432,60446,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-7,text,false,,694,16148,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60446,0,0
+1685284847645,60854,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2871,16565,15,15,null,60854,380,202
+1685284908880,515,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,515,0,305
+1685284916683,390,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,417,16,16,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,387,0,189
+1685284857333,60250,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,8915,16,16,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60250,0,0
+1685284849954,60581,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,9332,16,16,null,60581,7050,146
+1685284917585,400,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,16,16,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,369,0,202
+1685284866354,60137,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,6155,16,16,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60137,0,0
+1685284862290,60541,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,6572,16,16,null,60541,3660,199
+1685284926493,410,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,16,16,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,410,0,203
+1685284928683,377,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,417,17,17,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,374,0,162
+1685284869847,60312,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,16124,17,17,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60312,0,0
+1685284863618,60716,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,16541,17,17,null,60709,5825,203
+1685284930161,428,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,17,17,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,336,0,120
+1685284880379,60307,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,16152,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60307,0,0
+1685284879086,60720,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,16569,18,18,null,60720,881,200
+1685284940687,439,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,432,0,139
+1685284940681,445,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-18,text,true,,2177,417,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,438,0,145
+1685284885289,60349,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,16148,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60349,0,0
+1685284881436,60788,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,16565,18,18,null,60782,3413,204
+1685284945638,410,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,410,0,205
+1685284888822,60196,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,8911,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60196,0,0
+1685284882152,60603,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,9328,18,18,null,60603,6263,204
+1685284949018,411,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,411,0,205
+1685284952682,433,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-17,text,true,,2177,417,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,433,0,125
+1685284894296,60353,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,5164,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60353,0,0
+1685284892291,60761,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,5581,19,19,null,60761,1597,202
+1685284954650,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,204
+1685284897364,60152,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,6167,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60152,0,0
+1685284890349,60559,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,6584,19,19,null,60559,6609,200
+1685284957519,393,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,384,0,202
+1685284897856,60174,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,5140,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60173,0,0
+1685284893965,60507,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,5557,19,19,null,60506,3558,165
+1685284958031,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,205
+1685284902508,60129,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,5123,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60129,0,0
+1685284899766,60436,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,5540,19,19,null,60436,2436,185
+1685284962639,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,419,0,206
+1685284904140,60342,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,16124,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60342,0,0
+1685284898845,60750,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,16541,19,19,null,60750,4886,201
+1685284964679,420,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-16,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,420,0,214
+1685284905397,60214,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-9,text,false,,694,6171,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60214,0,0
+1685284898742,60725,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2871,6588,20,20,null,60725,6144,106
+1685284964483,1458,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,1457,0,198
+1685284965613,514,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,514,0,202
+1685284907490,60166,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,8911,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60166,0,0
+1685284906422,60574,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,9328,20,20,null,60573,661,104
+1685284967657,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,203
+1685284912724,60358,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,16120,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60358,0,0
+1685284906217,60971,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,16537,20,20,null,60970,5896,202
+1685284973084,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,511,0,307
+1685284915791,60116,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-7,text,false,,694,8907,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60116,0,0
+1685284908879,60631,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2871,9324,20,20,null,60631,6398,305
+1685284975908,762,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,762,0,145
+1685284917974,60141,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-20,text,false,,694,5123,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60140,0,0
+1685284916680,60531,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-20,,false,,2871,5540,20,20,null,60527,904,189
+1685284978116,396,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,396,0,191
+1685284922230,60171,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,5140,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60171,0,0
+1685284917584,60571,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,5557,20,20,null,60540,4249,202
+1685284982406,404,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,404,0,200
+1685284930745,60155,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-19,text,false,,694,8907,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60155,0,0
+1685284928681,60532,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-19,,false,,2871,9324,20,20,null,60529,1688,162
+1685284990902,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,208
+1685284932479,60264,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,16132,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60264,0,0
+1685284926492,60674,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,16549,20,20,null,60674,5577,203
+1685284992744,391,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,390,0,204
+1685284936492,60141,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,5123,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60141,0,0
+1685284930160,60569,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,5540,20,20,null,60477,5905,120
+1685284996634,409,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,203
+1685284941800,60133,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,6167,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60133,0,0
+1685284940686,60572,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,6584,20,20,null,60565,675,139
+1685285001935,330,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,330,0,125
+1685284946883,60399,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-18,text,false,,694,16156,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60399,0,0
+1685284940679,60844,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-18,,false,,2871,16573,20,20,null,60837,5760,145
+1685285007284,607,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-18,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,600,0,204
+1685284947584,60310,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,16120,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60310,0,0
+1685284945637,60720,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,16537,20,20,null,60720,1537,205
+1685285007895,411,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,411,0,206
+1685284952236,60166,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,6147,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60166,0,0
+1685284949018,60577,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,6564,20,20,null,60577,2810,205
+1685285012407,405,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,405,0,200
+1685284955832,60155,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-17,text,false,,694,5131,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60155,0,0
+1685284952679,60588,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-17,,false,,2871,5548,20,20,null,60588,2719,125
+1685285015988,481,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-17,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,481,0,189
+1685284961316,60304,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,16124,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60303,0,0
+1685284954649,60713,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,16541,20,20,null,60712,6257,204
+1685285021621,391,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,391,0,203
+1685284961912,60110,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,8923,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60110,0,0
+1685284957518,60503,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,9340,20,20,null,60494,4002,202
+1685285022023,313,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,313,0,108
+1685284964311,60110,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,6147,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60110,0,0
+1685284962638,60620,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,6564,20,20,null,60529,1164,206
+1685284964544,60109,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,6163,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60109,0,0
+1685284958031,60518,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,6580,20,20,null,60518,6104,205
+1685285024422,521,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,105
+1685285024654,555,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,540,0,108
+1685284968020,60364,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-9,text,false,,694,16152,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60364,0,0
+1685284965612,60878,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2871,16569,20,20,null,60878,1894,202
+1685284968344,60145,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-16,text,false,,694,6143,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60144,0,0
+1685284964679,60565,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-16,,false,,2871,6560,20,20,null,60564,3245,214
+1685284968451,60234,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,5168,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60234,0,0
+1685284964482,61692,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,5585,20,20,null,61691,2512,198
+1685285028489,399,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-16,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,399,0,194
+1685285028384,504,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,504,0,299
+1685285028686,334,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,329,0,150
+1685284969393,60120,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,5152,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60120,0,0
+1685284967657,60630,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,5569,20,20,null,60630,1226,203
+1685285029514,398,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,398,0,197
+1685284975005,60130,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,5144,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60130,0,0
+1685284973083,60641,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,5561,20,20,null,60641,1411,307
+1685285035137,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685284979656,60190,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-7,text,false,,694,5135,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60190,0,0
+1685284975907,60952,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2871,5552,20,20,null,60952,2987,145
+1685285039847,512,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,512,0,307
+1685284981147,60116,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-20,text,false,,694,5156,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60116,0,0
+1685284978115,60512,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-20,,false,,2871,5573,20,20,null,60512,2635,191
+1685285041264,432,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,426,0,226
+1685284985910,60186,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,8911,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60186,0,0
+1685284982405,60590,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,9328,20,20,null,60590,3101,200
+1685285046097,611,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,611,0,200
+1685284992621,60129,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-19,text,false,,694,8907,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60128,0,0
+1685284990901,60536,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-19,,false,,2871,9324,20,20,null,60535,1313,208
+1685285052751,715,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,714,0,202
+1685284995857,60167,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,8887,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60167,0,0
+1685284992743,60558,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,9304,20,20,null,60557,2725,204
+1685285056026,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,324,0,105
+1685285003322,60281,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,16116,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60281,0,0
+1685285001934,60611,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,16533,20,20,null,60611,1059,125
+1685285003652,60155,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,5107,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60155,0,0
+1685284996633,60564,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,5524,20,20,null,60564,6610,203
+1685285063605,713,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,713,0,201
+1685285063808,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,143
+1685285010325,60121,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,6135,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60121,0,0
+1685285007894,60532,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,6552,20,20,null,60532,2022,206
+1685285010293,60274,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-18,text,false,,694,16116,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60274,0,0
+1685285007283,60881,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-18,,false,,2871,16533,20,20,null,60874,2402,204
+1685285070450,573,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,563,0,116
+1685285070568,457,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-18,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,445,0,208
+1685285014104,60152,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,8895,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60152,0,0
+1685285012406,60557,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,9312,20,20,null,60557,1293,200
+1685285074258,508,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,508,0,204
+1685285018217,60131,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-17,text,false,,694,8911,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60131,0,0
+1685285015987,60612,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-17,,false,,2871,9328,20,20,null,60612,1749,189
+1685285078349,517,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-17,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,443,0,204
+1685285022746,60276,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,8919,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60276,0,0
+1685285022023,60589,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,9336,20,20,null,60589,410,108
+1685285083023,446,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,446,0,110
+1685285026180,60257,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,8919,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60257,0,0
+1685285024654,60812,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,9336,20,20,null,60797,973,108
+1685285086440,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,203
+1685285027676,60194,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,5111,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60194,0,0
+1685285021620,60585,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,5528,20,20,null,60585,5667,203
+1685285087873,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,438,0,203
+1685285030094,60131,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,6171,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60131,0,0
+1685285029976,60249,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,5123,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60249,0,0
+1685285024422,60652,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,6588,20,20,null,60641,5152,105
+1685285028685,60583,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,5540,20,20,null,60578,957,150
+1685285090227,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,422,0,204
+1685285090227,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,416,0,204
+1685285030651,60291,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-16,text,false,,694,16124,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60291,0,0
+1685285028488,60690,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-16,,false,,2871,16541,20,20,null,60690,1764,194
+1685285090944,614,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-16,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,614,0,204
+1685285031915,60155,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-9,text,false,,694,6159,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60155,0,0
+1685285028383,60659,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2871,6576,20,20,null,60659,3028,299
+1685285092072,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,202
+1685285035644,60419,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,16116,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60419,0,0
+1685285029513,60817,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,16533,20,20,null,60817,5732,197
+1685285096064,512,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,512,0,204
+1685285096682,308,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-25,text,true,,2177,417,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,303,0,131
+1685285040696,60180,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,5164,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60180,0,0
+1685285035136,60588,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,5581,21,21,null,60588,5155,203
+1685285100879,406,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,406,0,203
+1685285041255,60133,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-7,text,false,,694,8895,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60133,0,0
+1685285039847,60645,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2871,9312,21,21,null,60645,896,307
+1685285101388,575,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,567,0,106
+1685285044742,60128,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-20,text,false,,694,6147,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60128,0,0
+1685285041263,60560,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-20,,false,,2871,6564,21,21,null,60554,3047,226
+1685285104870,612,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,417,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,586,0,203
+1685285108679,490,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-24,text,true,,2177,417,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,490,0,183
+1685285050441,60368,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,5123,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60368,0,0
+1685285046097,60979,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,5540,22,22,null,60979,3733,200
+1685285110809,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,201
+1685285058791,60209,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,5176,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60209,0,0
+1685285056025,60617,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,5593,22,22,null,60533,2358,105
+1685285119002,417,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685285059923,60203,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-19,text,false,,694,5172,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60203,0,0
+1685285052750,60918,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-19,,false,,2871,5589,22,22,null,60917,6459,202
+1685285120128,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,417,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,511,0,207
+1685285120682,470,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-23,text,true,,2177,417,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,470,0,162
+1685285064857,60185,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,6135,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60185,0,0
+1685285063604,60898,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,6552,23,23,null,60898,541,201
+1685285125044,509,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,439,0,203
+1685285068538,60191,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,6171,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60191,0,0
+1685285063807,60701,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,6588,23,23,null,60701,4221,143
+1685285128730,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,202
+1685285072205,60210,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-18,text,false,,694,8911,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60210,0,0
+1685285070567,60667,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-18,,false,,2871,9328,23,23,null,60655,1188,208
+1685285132422,504,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-18,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,504,0,197
+1685285132681,450,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-22,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,450,0,142
+1685285073101,60342,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,16124,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60342,0,0
+1685285070449,60915,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,16541,24,24,null,60905,2079,116
+1685285133443,439,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,430,0,200
+1685285081284,60140,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,8891,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60140,0,0
+1685285074257,60648,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,9308,24,24,null,60648,6520,204
+1685285141426,1331,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,1235,0,205
+1685285083015,60151,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-17,text,false,,694,5115,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60151,0,0
+1685285078349,60668,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-17,,false,,2871,5532,24,24,null,60594,4150,204
+1685285144681,482,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-21,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,346,0,123
+1685285143168,2867,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-17,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,2867,0,203
+1685285086444,60205,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,8887,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60205,0,0
+1685285083022,60651,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,9304,25,25,null,60651,2975,110
+1685285146650,425,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,419,0,204
+1685285091684,60117,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,8911,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60116,0,0
+1685285087872,60627,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,9328,25,25,null,60554,3302,203
+1685285151802,376,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,376,0,106
+1685285093799,60221,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,5144,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60221,0,0
+1685285086439,60731,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,5561,25,25,null,60731,6851,203
+1685285154022,1024,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,1024,0,192
+1685285095342,60216,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-16,text,false,,694,5135,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60216,0,0
+1685285095406,60152,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,5152,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60152,0,0
+1685285090943,60830,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-16,,false,,2871,5552,25,25,null,60830,3785,204
+1685285090227,60663,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,5569,25,25,null,60574,4669,204
+1685285155558,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-16,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,204
+1685285155558,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,204
+1685285097554,60153,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,6159,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60153,0,0
+1685285090227,60664,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,6576,25,25,null,60569,6817,204
+1685285157707,512,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,512,0,190
+1685285098544,60189,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-9,text,false,,694,6171,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60188,0,0
+1685285092071,60699,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2871,6588,25,25,null,60698,5963,202
+1685285158733,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,111
+1685285100471,60205,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,8907,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60205,0,0
+1685285096063,60717,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,9324,25,25,null,60717,3900,204
+1685285100505,60379,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-25,text,false,,694,16116,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60379,0,0
+1685285096680,60687,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-25,,false,,2871,16533,25,25,null,60682,3518,131
+1685285160680,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,204
+1685285160885,612,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-25,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,612,0,202
+1685285105442,60253,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,8891,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60253,0,0
+1685285100878,60659,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,9308,25,25,null,60659,4158,203
+1685285106169,60139,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-7,text,false,,694,8911,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60139,0,0
+1685285101388,60714,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2871,9328,25,25,null,60706,4206,106
+1685285165696,612,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-15,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,612,0,236
+1685285166309,411,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,409,0,203
+1685285111275,60152,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-20,text,false,,694,8927,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60152,0,0
+1685285104870,60764,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-20,,false,,2871,9344,25,25,null,60738,5793,203
+1685285171428,325,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-20,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,325,0,108
+1685285114869,60144,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-24,text,false,,694,8923,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60144,0,0
+1685285108678,60634,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-24,,false,,2871,9340,25,25,null,60634,5701,183
+1685285115385,60140,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,8915,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60140,0,0
+1685285110809,60548,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,9332,25,25,null,60548,4168,201
+1685285175015,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-24,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,203
+1685285175527,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685285121705,60168,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,8923,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60168,0,0
+1685285119001,60585,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,9340,25,25,null,60576,2288,203
+1685285181875,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,203
+1685285123600,60118,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-23,text,false,,694,5131,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60118,0,0
+1685285120680,60588,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-23,,false,,2871,5548,25,25,null,60588,2451,162
+1685285183720,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-23,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,165
+1685285127430,60179,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-19,text,false,,694,8907,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60179,0,0
+1685285120127,60690,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-19,,false,,2871,9324,25,25,null,60690,6793,207
+1685285187610,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,203
+1685285127008,61318,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,8927,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,61318,0,0
+1685285125043,61827,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,9344,25,25,null,61757,1456,203
+1685285188327,418,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,412,0,203
+1685285131107,60289,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,5127,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60289,0,0
+1685285128729,60696,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,5544,25,25,null,60696,1974,202
+1685285191400,407,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,407,0,201
+1685285135278,60421,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-22,text,false,,694,16132,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60421,0,0
+1685285132679,60871,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-22,,false,,2871,16549,25,25,null,60871,2149,142
+1685285195701,305,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-22,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,305,0,118
+1685285136310,60207,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-3,text,false,,694,8911,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60207,0,0
+1685285133442,60646,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2871,9328,25,25,null,60637,2428,200
+1685285196518,511,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,422,0,204
+1685285139342,60142,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-18,text,false,,694,6171,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60142,0,0
+1685285132421,60646,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-18,,false,,2871,6588,25,25,null,60646,6416,197
+1685285199485,496,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-18,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,448,0,206
+1685285180774,24038,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-24,text,false,,463,16116,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,24038,0,0
+1685285175014,24548,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-24,,false,,2640,16533,25,25,null,24548,5250,203
+1685285195159,10164,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-19,text,false,,694,6135,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,10164,0,0
+1685285187609,10674,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-19,,false,,2871,6552,25,25,null,10674,7040,203
+1685285204813,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-24,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,510,0,203
+1685285205325,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-19,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,115
+1685285145677,60158,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-21,text,false,,694,6167,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60158,0,0
+1685285144680,60640,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-21,,false,,2871,6584,25,25,null,60504,516,123
+1685285205837,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-21,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,115
+1685285146148,60112,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-5,text,false,,694,6143,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60112,0,0
+1685285141426,61443,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2871,6560,25,25,null,61347,3392,205
+1685285206262,597,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,597,0,188
+1685285149057,60297,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-10,text,false,,694,5172,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60297,0,0
+1685285146649,60722,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-10,,false,,2871,5589,25,25,null,60716,1984,204
+1685285149281,60122,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-17,text,false,,694,5172,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60122,0,0
+1685285143167,62989,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-17,,false,,2871,5589,25,25,null,62989,3248,203
+1685285172920,36925,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-7,text,false,,463,6151,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,36925,0,0
+1685285166308,37336,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2640,6568,25,25,null,37334,6200,203
+1685285209356,576,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,575,0,269
+1685285209405,527,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-17,text,true,,2177,417,25,25,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,526,0,220
+1685285209355,576,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-10,,true,,2177,417,25,25,null,575,4,269
+1685285209846,499,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,499,0,120
+1685285154212,60329,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-1,text,false,,694,16144,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60329,0,0
+1685285151801,60705,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2871,16561,24,24,null,60705,2035,106
+1685285184338,30919,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-2,text,false,,463,16124,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,30919,0,0
+1685285181874,31327,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2640,16541,24,24,null,31327,2056,203
+1685285214542,715,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,715,0,204
+1685285215257,510,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,438,0,204
+1685285157704,60214,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-13,text,false,,694,5140,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60214,0,0
+1685285154021,61238,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-13,,false,,2871,5557,24,24,null,61238,2660,192
+1685285157951,60128,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-16,text,false,,694,5111,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60128,0,0
+1685285155558,60638,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-16,,false,,2871,5528,24,24,null,60638,1884,204
+1685285217919,408,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,2177,417,24,24,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,408,0,160
+1685285217918,408,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",jp@gc - Ultimate Thread Group 1-13,,true,,2177,417,24,24,null,408,4,160
+1685285218081,657,HTTP Request GET,200,OK,jp@gc - Ultimate Thread Group 1-16,text,true,,2177,417,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,657,0,143
+1685285164733,54925,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-9,text,false,,463,16144,23,23,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,54925,0,0
+1685285158732,55333,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-9,,false,,2640,16561,23,23,null,55333,5594,111
+1685285160070,60203,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-14,text,false,,694,5140,22,22,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60202,0,0
+1685285157707,60715,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-14,,false,,2871,5557,22,22,null,60714,1853,190
+1685285161981,60237,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-4,text,false,,694,5111,21,21,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60237,0,0
+1685285160679,60747,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-4,,false,,2871,5528,21,21,null,60747,793,204
+1685285162480,60148,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-25,text,false,,694,5099,20,20,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60148,0,0
+1685285160884,60760,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-25,,false,,2871,5516,20,20,null,60760,984,202
+1685285162853,60116,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-8,text,false,,694,8899,19,19,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60116,0,0
+1685285155558,60626,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-8,,false,,2871,9316,19,19,null,60626,6786,204
+1685285199463,32484,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-22,text,false,,463,5107,18,18,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,32484,0,0
+1685285195700,32789,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-22,,false,,2640,5524,18,18,null,32789,3459,118
+1685285172987,60189,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-15,text,false,,694,6163,17,17,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60189,0,0
+1685285165695,60801,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-15,,false,,2871,6580,17,17,null,60801,6680,236
+1685285173914,60185,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-20,text,false,,694,6135,16,16,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60185,0,0
+1685285171428,60510,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-20,,false,,2871,6552,16,16,null,60510,2162,108
+1685285209628,26823,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-24,text,false,,463,8907,15,15,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,26823,0,0
+1685285204812,27333,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-24,,false,,2640,9324,15,15,null,27333,4307,203
+1685285178481,60224,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-6,text,false,,694,16128,14,14,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60224,0,0
+1685285175526,60632,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-6,,false,,2871,16545,14,14,null,60632,2549,203
+1685285213031,27210,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-17,text,false,,463,5107,13,13,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,27210,0,0
+1685285209404,27737,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-17,,false,,2640,5524,13,13,null,27736,3100,220
+1685285186703,60190,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-23,text,false,,694,6147,12,12,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60190,0,0
+1685285183719,60598,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-23,,false,,2871,6564,12,12,null,60598,2578,165
+1685285208480,40466,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-5,text,false,,463,5111,11,11,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,40466,0,0
+1685285206261,41063,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-5,,false,,2640,5528,11,11,null,41063,1622,188
+1685285198297,51877,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-3,text,false,,463,5131,10,10,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,51877,0,0
+1685285196517,52388,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-3,,false,,2640,5548,10,10,null,52299,1272,204
+1685285212165,38829,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-7,text,false,,463,5127,9,9,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,38829,0,0
+1685285209845,39328,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-7,,false,,2640,5544,9,9,null,39328,1821,120
+1685285192771,60268,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-12,text,false,,694,6171,8,8,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60268,0,0
+1685285188326,60686,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-12,,false,,2871,6588,8,8,null,60680,4028,203
+1685285194015,60151,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-11,text,false,,694,5119,7,7,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60151,0,0
+1685285191399,60558,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-11,,false,,2871,5536,7,7,null,60558,2209,201
+1685285204117,60392,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-18,text,false,,694,16156,6,6,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60392,0,0
+1685285199484,60888,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-18,,false,,2871,16573,6,6,null,60840,4138,206
+1685285216494,48790,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-1,text,false,,463,16156,5,5,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,48790,0,0
+1685285214541,49505,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-1,,false,,2640,16573,5,5,null,49505,1240,204
+1685285212777,56750,HTTP Request POST,500,INTERNAL SERVER ERROR,jp@gc - Ultimate Thread Group 1-19,text,false,,463,8895,4,4,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,56750,0,0
+1685285205324,57158,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-19,,false,,2640,9312,4,4,null,57158,7045,115
+1685285212361,60238,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-21,text,false,,694,8907,3,3,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60238,0,0
+1685285205836,60646,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-21,,false,,2871,9324,3,3,null,60646,6117,115
+1685285222027,60198,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-2,text,false,,694,6139,2,2,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60198,0,0
+1685285215256,60708,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-2,,false,,2871,6556,2,2,null,60636,6263,204
+1685285225776,60442,HTTP Request POST,504,Gateway Time-out,jp@gc - Ultimate Thread Group 1-16,text,false,,694,16156,1,1,http://image-recognition-aws-1-1716064882.us-east-1.elb.amazonaws.com:8080/,60442,0,0
+1685285218080,61099,Test,,"Number of samples in transaction : 2, number of failing samples : 1",jp@gc - Ultimate Thread Group 1-16,,false,,2871,16573,1,1,null,61099,7038,143
