@@ -1,0 +1,76 @@
+(base) lucia@lucia-HP-Laptop-15-dw0xxx:/opt/jmeter/bin$ jmeter -n -t /home/lucia/Documenti/GitHub/cloud-computing-project/jmeter/load_test.jmx -l /home/lucia/Documenti/GitHub/cloud-computing-project/jmeter/new_test_large/03/log_03.csv -e -o /home/lucia/Documenti/GitHub/cloud-computing-project/jmeter/new_test_large/03/dashboard
+Creating summariser <summary>
+Created the tree successfully using /home/lucia/Documenti/GitHub/cloud-computing-project/jmeter/load_test.jmx
+Starting standalone test @ 2023 May 30 16:31:57 CEST (1685457117270)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +      5 in 00:00:36 =    0.1/s Avg:  1596 Min:   307 Max:  6592 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+summary +     23 in 00:01:01 =    0.4/s Avg:  7386 Min:   210 Max: 21222 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+summary =     28 in 00:01:37 =    0.3/s Avg:  6352 Min:   210 Max: 21222 Err:     0 (0.00%)
+summary +     54 in 00:01:59 =    0.5/s Avg:  8938 Min:   265 Max: 23878 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+summary =     82 in 00:03:36 =    0.4/s Avg:  8055 Min:   210 Max: 23878 Err:     0 (0.00%)
+summary +     19 in 00:00:59 =    0.3/s Avg: 13005 Min:   305 Max: 39963 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =    101 in 00:04:36 =    0.4/s Avg:  8986 Min:   210 Max: 39963 Err:     0 (0.00%)
+summary +     40 in 00:01:28 =    0.5/s Avg: 21656 Min:   214 Max: 46226 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+summary =    141 in 00:06:04 =    0.4/s Avg: 12580 Min:   210 Max: 46226 Err:     0 (0.00%)
+summary +     58 in 00:00:29 =    2.0/s Avg:  6557 Min:   106 Max: 42167 Err:    42 (72.41%) Active: 12 Started: 12 Finished: 0
+summary =    199 in 00:06:33 =    0.5/s Avg: 10825 Min:   106 Max: 46226 Err:    42 (21.11%)
+summary +     54 in 00:00:29 =    1.9/s Avg:  7586 Min:   105 Max: 44590 Err:    34 (62.96%) Active: 15 Started: 15 Finished: 0
+summary =    253 in 00:07:02 =    0.6/s Avg: 10134 Min:   105 Max: 46226 Err:    76 (30.04%)
+summary +     40 in 00:00:30 =    1.3/s Avg:  3066 Min:   104 Max: 42107 Err:    32 (80.00%) Active: 15 Started: 15 Finished: 0
+summary =    293 in 00:07:32 =    0.6/s Avg:  9169 Min:   104 Max: 46226 Err:   108 (36.86%)
+summary +      5 in 00:00:31 =    0.2/s Avg: 32958 Min:   408 Max: 60157 Err:     2 (40.00%) Active: 15 Started: 15 Finished: 0
+summary =    298 in 00:08:03 =    0.6/s Avg:  9568 Min:   104 Max: 60157 Err:   110 (36.91%)
+summary +     48 in 00:00:33 =    1.5/s Avg: 16940 Min:   210 Max: 60183 Err:     4 (8.33%) Active: 15 Started: 15 Finished: 0
+summary =    346 in 00:08:36 =    0.7/s Avg: 10591 Min:   104 Max: 60183 Err:   114 (32.95%)
+summary +     63 in 00:00:56 =    1.1/s Avg: 11583 Min:   209 Max: 42906 Err:     0 (0.00%) Active: 17 Started: 17 Finished: 0
+summary =    409 in 00:09:32 =    0.7/s Avg: 10743 Min:   104 Max: 60183 Err:   114 (27.87%)
+summary +     22 in 00:00:31 =    0.7/s Avg:  9628 Min:   220 Max: 46418 Err:     3 (13.64%) Active: 20 Started: 20 Finished: 0
+summary =    431 in 00:10:04 =    0.7/s Avg: 10686 Min:   104 Max: 60183 Err:   117 (27.15%)
+summary +     36 in 00:00:29 =    1.2/s Avg: 14339 Min:   211 Max: 60291 Err:    14 (38.89%) Active: 20 Started: 20 Finished: 0
+summary =    467 in 00:10:33 =    0.7/s Avg: 10968 Min:   104 Max: 60291 Err:   131 (28.05%)
+summary +     40 in 00:00:32 =    1.3/s Avg: 16432 Min:   219 Max: 60292 Err:    11 (27.50%) Active: 20 Started: 20 Finished: 0
+summary =    507 in 00:11:04 =    0.8/s Avg: 11399 Min:   104 Max: 60292 Err:   142 (28.01%)
+summary +     46 in 00:00:31 =    1.5/s Avg:  4995 Min:   104 Max: 60135 Err:    34 (73.91%) Active: 20 Started: 20 Finished: 0
+summary =    553 in 00:11:35 =    0.8/s Avg: 10866 Min:   104 Max: 60292 Err:   176 (31.83%)
+summary +     99 in 00:00:27 =    3.7/s Avg:  9031 Min:   104 Max: 60187 Err:    72 (72.73%) Active: 20 Started: 20 Finished: 0
+summary =    652 in 00:12:02 =    0.9/s Avg: 10588 Min:   104 Max: 60292 Err:   248 (38.04%)
+summary +     24 in 00:00:30 =    0.8/s Avg: 14572 Min:   147 Max: 54598 Err:    11 (45.83%) Active: 22 Started: 22 Finished: 0
+summary =    676 in 00:12:32 =    0.9/s Avg: 10729 Min:   104 Max: 60292 Err:   259 (38.31%)
+summary +     72 in 00:00:30 =    2.4/s Avg:  7328 Min:   103 Max: 45313 Err:    41 (56.94%) Active: 25 Started: 25 Finished: 0
+summary =    748 in 00:13:03 =    1.0/s Avg: 10402 Min:   103 Max: 60292 Err:   300 (40.11%)
+summary +     32 in 00:00:30 =    1.1/s Avg: 10843 Min:   275 Max: 58854 Err:     0 (0.00%) Active: 25 Started: 25 Finished: 0
+summary =    780 in 00:13:33 =    1.0/s Avg: 10420 Min:   103 Max: 60292 Err:   300 (38.46%)
+summary +     67 in 00:00:30 =    2.3/s Avg: 17596 Min:   209 Max: 60396 Err:    14 (20.90%) Active: 25 Started: 25 Finished: 0
+summary =    847 in 00:14:02 =    1.0/s Avg: 10987 Min:   103 Max: 60396 Err:   314 (37.07%)
+summary +     38 in 00:00:30 =    1.3/s Avg:  7730 Min:   127 Max: 28384 Err:     7 (18.42%) Active: 25 Started: 25 Finished: 0
+summary =    885 in 00:14:32 =    1.0/s Avg: 10847 Min:   103 Max: 60396 Err:   321 (36.27%)
+summary +     71 in 00:00:31 =    2.3/s Avg: 16268 Min:   107 Max: 60331 Err:    23 (32.39%) Active: 25 Started: 25 Finished: 0
+summary =    956 in 00:15:03 =    1.1/s Avg: 11250 Min:   103 Max: 60396 Err:   344 (35.98%)
+summary +     66 in 00:00:29 =    2.2/s Avg:  7431 Min:   104 Max: 42285 Err:    16 (24.24%) Active: 25 Started: 25 Finished: 0
+summary =   1022 in 00:15:33 =    1.1/s Avg: 11003 Min:   103 Max: 60396 Err:   360 (35.23%)
+summary +     60 in 00:00:32 =    1.8/s Avg:  8954 Min:   106 Max: 39507 Err:     6 (10.00%) Active: 22 Started: 25 Finished: 3
+summary =   1082 in 00:16:05 =    1.1/s Avg: 10890 Min:   103 Max: 60396 Err:   366 (33.83%)
+summary +     54 in 00:00:28 =    1.9/s Avg: 12130 Min:   212 Max: 47658 Err:     0 (0.00%) Active: 20 Started: 25 Finished: 5
+summary =   1136 in 00:16:33 =    1.1/s Avg: 10949 Min:   103 Max: 60396 Err:   366 (32.22%)
+summary +     62 in 00:00:34 =    1.8/s Avg:  9525 Min:   211 Max: 42731 Err:     0 (0.00%) Active: 20 Started: 25 Finished: 5
+summary =   1198 in 00:17:08 =    1.2/s Avg: 10875 Min:   103 Max: 60396 Err:   366 (30.55%)
+summary +     49 in 00:00:27 =    1.8/s Avg:  9337 Min:   212 Max: 30891 Err:     0 (0.00%) Active: 15 Started: 25 Finished: 10
+summary =   1247 in 00:17:35 =    1.2/s Avg: 10815 Min:   103 Max: 60396 Err:   366 (29.35%)
+summary +     27 in 00:00:27 =    1.0/s Avg:  7947 Min:   278 Max: 35647 Err:     0 (0.00%) Active: 15 Started: 25 Finished: 10
+summary =   1274 in 00:18:02 =    1.2/s Avg: 10754 Min:   103 Max: 60396 Err:   366 (28.73%)
+summary +     50 in 00:00:30 =    1.7/s Avg: 10579 Min:   243 Max: 40855 Err:     0 (0.00%) Active: 15 Started: 25 Finished: 10
+summary =   1324 in 00:18:32 =    1.2/s Avg: 10747 Min:   103 Max: 60396 Err:   366 (27.64%)
+summary +     82 in 00:01:34 =    0.9/s Avg: 11562 Min:   213 Max: 52594 Err:     0 (0.00%) Active: 10 Started: 25 Finished: 15
+summary =   1406 in 00:20:06 =    1.2/s Avg: 10795 Min:   103 Max: 60396 Err:   366 (26.03%)
+summary +     28 in 00:00:27 =    1.0/s Avg:  7602 Min:   307 Max: 25772 Err:     0 (0.00%) Active: 7 Started: 25 Finished: 18
+summary =   1434 in 00:20:33 =    1.2/s Avg: 10732 Min:   103 Max: 60396 Err:   366 (25.52%)
+summary +     24 in 00:00:33 =    0.7/s Avg:  6175 Min:   209 Max: 21298 Err:     0 (0.00%) Active: 5 Started: 25 Finished: 20
+summary =   1458 in 00:21:06 =    1.2/s Avg: 10657 Min:   103 Max: 60396 Err:   366 (25.10%)
+summary +     26 in 00:00:59 =    0.4/s Avg:  9181 Min:   391 Max: 23260 Err:     0 (0.00%) Active: 3 Started: 25 Finished: 22
+summary =   1484 in 00:22:05 =    1.1/s Avg: 10632 Min:   103 Max: 60396 Err:   366 (24.66%)
+summary +      2 in 00:00:00 =   17.1/s Avg: 14471 Min: 10717 Max: 18225 Err:     0 (0.00%) Active: 0 Started: 25 Finished: 25
+summary =   1486 in 00:22:05 =    1.1/s Avg: 10637 Min:   103 Max: 60396 Err:   366 (24.63%)
+Tidying up ...    @ 2023 May 30 16:54:03 CEST (1685458443061)
+... end of run
+(base) lucia@lucia-HP-Laptop-15-dw0xxx:/opt/jmeter/bin$ 

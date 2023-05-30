@@ -1,0 +1,167 @@
+[
+    {
+        "Timestamp": "2023-05-30T17:00:00+00:00",
+        "Average": 5.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:17:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:59:00+00:00",
+        "Average": 5.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:58:00+00:00",
+        "Average": 5.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:16:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:57:00+00:00",
+        "Average": 4.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:15:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:14:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:56:00+00:00",
+        "Average": 3.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:04:00+00:00",
+        "Average": 3.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:03:00+00:00",
+        "Average": 3.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:02:00+00:00",
+        "Average": 4.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:19:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:01:00+00:00",
+        "Average": 4.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:18:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:51:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:08:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:50:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:07:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:49:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:48:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:06:00+00:00",
+        "Average": 2.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:47:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:05:00+00:00",
+        "Average": 2.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:13:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:55:00+00:00",
+        "Average": 3.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:12:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:54:00+00:00",
+        "Average": 3.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:53:00+00:00",
+        "Average": 2.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:11:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T16:52:00+00:00",
+        "Average": 2.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:10:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    },
+    {
+        "Timestamp": "2023-05-30T17:09:00+00:00",
+        "Average": 1.0,
+        "Unit": "None"
+    }
+]
